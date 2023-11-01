@@ -1,0 +1,2455 @@
+[
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "BPMS_INTERFACE_ACC"
+      }
+    ],
+    "Identity": "BPMS_INTERFACE_ACC",
+    "Description": "BPMS_INTERFACE_ACC",
+    "WebUser": "BPMS_INTERFACE_ACC",
+    "UserType": "ServiceUser",
+    "Active": true,
+    "ValidFrom": null,
+    "ValidTo": null,
+    "DefaultIdp": true,
+    "FromScim": "FALSE",
+    "UserEmail": null,
+    "PreferredLanguage": null,
+    "HasPinCode": false,
+    "PersonId": null,
+    "IsLtuUser": false,
+    "PersonCreation": null,
+    "Source": "ACC Environment",
+    "MissingFrom": "UAT Environment"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "NIDAS"
+      }
+    ],
+    "differences": {
+      "PersonId": {
+        "ACC Environment": "NIDAS",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "LOU"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "LOUDART@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MACLA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MCLARE@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "EAL"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "EALLAHVERDIAN@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "SSHA"
+      }
+    ],
+    "differences": {
+      "PersonId": {
+        "ACC Environment": null,
+        "UAT Environment": "SSHA"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "VMAGNIAT"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "virginie.magniat@capgemini.com",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "EMAU"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "EMAURINCOMMEBOCCARD@.FR",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "TGHOSALK"
+      }
+    ],
+    "differences": {
+      "WebUser": {
+        "ACC Environment": "TGHOSALK",
+        "UAT Environment": "TEJASHREE.GHOSALKAR@CAPGEMINI.COM"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "CTSIMIRA"
+      }
+    ],
+    "differences": {
+      "WebUser": {
+        "ACC Environment": "CTSIMIRA",
+        "UAT Environment": "CAELLA.TSIMIRAHO@CAPGEMINI.COM"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "PSL"
+      }
+    ],
+    "differences": {
+      "WebUser": {
+        "ACC Environment": "PSLEDZINSKI@BOCCARDKATES.PL",
+        "UAT Environment": "PSLEDZINSKIBOCCARD@.PL"
+      },
+      "UserEmail": {
+        "ACC Environment": "psledzinski@boccardkates.pl",
+        "UAT Environment": "PSLEDZINSKIBOCCARD@.PL"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "NDR"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "ndronier@boccard.fr",
+        "UAT Environment": null
+      },
+      "PreferredLanguage": {
+        "ACC Environment": "en",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "ROCAGARW"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "rochak.a.agarwal@capgemini.com",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "VEYADAVA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "venkata-krishna-sai-praveen.yadavalli@capgemini.com",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "HARSHCHA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "harshada-umesh.chavan@capgemini.com",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MKHANTE"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "mrunal.khante@capgemini.com",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "ARRAMYA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "arikala.ramya@capgemini.com",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "LCHUNCHU"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "lakshmiteja.chunchu@capgemini.com",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "SMOHSINM"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "suhaib.mohsin-moosa@capgemini.com",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "BPMS_INTERFACE"
+      }
+    ],
+    "differences": {
+      "PreferredLanguage": {
+        "ACC Environment": "en",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "VEM"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "vmancias@boccard.com",
+        "UAT Environment": "VMANCIAS@BOCCARD.COM"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "CLOP"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "clopez@boccard.com",
+        "UAT Environment": "CLOPEZ@BOCCARD.COM"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "SNA"
+      }
+    ],
+    "differences": {
+      "DefaultIdp": {
+        "ACC Environment": false,
+        "UAT Environment": true
+      },
+      "UserEmail": {
+        "ACC Environment": "sandeep.nagar@capgemini.com",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "RFORTAIL"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "rick.fortaillier@capgemini.com",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "KUSHSOLA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "kushal-babulal.solanki@capgemini.com",
+        "UAT Environment": null
+      },
+      "PersonId": {
+        "ACC Environment": "KUSHSOLA",
+        "UAT Environment": "KUSHAL"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "IFSMIG"
+      }
+    ],
+    "differences": {
+      "PersonId": {
+        "ACC Environment": null,
+        "UAT Environment": "NIDAS"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "AWIS"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "AWISNIEWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "JCW"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "JCYBART-WACHOWICZ@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "AJAS"
+      }
+    ],
+    "differences": {
+      "DefaultIdp": {
+        "ACC Environment": true,
+        "UAT Environment": false
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "ASY"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "ASYDOR@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MACS"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MSTREK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "LUM"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "LMILEWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "PMR"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "PMRACHACZ@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "WNA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "WNARTONOWICZ@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MAO"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MORLOWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "BPAN"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "BPANGOWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "PAN"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "JPANKOWSKA@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "IPA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "IPASIK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "BAA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "BADAMCZYK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MPIE"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MPIECHOTA@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "KPIS"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "KPISZCZALKA@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "PIW"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MPIWNICKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "ALP"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "APRASKA@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "PRZ"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "LPRZEKOPSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MROZ"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MROZICKA@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "AGS"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "ASACHARUK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MSAD"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MSADOWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MSID"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MSIDORSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "SAF"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "SAFALTOWSKA@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "PBAB"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "PBABA@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "DABE"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "DBERK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "ABEB"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "ABEBENEK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "BBIA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "BBIALASIAK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "TBI"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "TBIESZCZAD@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "KBI"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "KBILANT@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "SLB"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "SBIS@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "PRABSINGH"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "prabhdeep.singh@capgemini.com",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "JSOB"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "JSOBIESKA@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "WSO"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "WSOKOLNICKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "SOK"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "PSOKOL@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "KRS"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "KSTACHURA@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MSTA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MSTACZYNSKA@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "BSTA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "BSTASIEWICZ@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "SST"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "SSTASZYNSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "BAG"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "KBLASZCZYK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "GRZ"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "GBONKOWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "KBR"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "KBROSZECKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "JABR"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "JBROZDZINSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "HBY"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "HBYLINSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "SCI"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "SCITKO@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "KCY"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "KCYMAN@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "DST"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "DSTAWINSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "PSTA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "PSTAWISZYNSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "LSZ"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "LSZCZUR@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "SZE"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "PSZERSZEN@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "KSZ"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "KSZMAJ@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "UFE"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "USZUTEK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "KCZ"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "KCZERNICH@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "TOD"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "TDABKOWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "ADAB"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "ADABROWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "WID"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "WDEBSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "WDU"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "WDUDZINSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "PDUM"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "PDUMANOWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "GUF"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "GFEVRIER@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "SFI"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "SFIGACZ@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "ATAP"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "ATAPEREK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "RTE"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "RTEOFILAK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "STO"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "WTOR@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "WTO"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "STOR@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MTR"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MTRUSIEWICZ@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "RWE"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "RWEZYK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MAW"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MWIELGOSZ@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "EWG"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "EGOZDEK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "SYG"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "SGREGORCZYK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "PGRO"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "PGROMEK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "KHO"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "KHORNIK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MJAR"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MJARZABEK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "RJA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "RJARZYNSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "JAJ"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "JJASINSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "LUW"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "LWISNIEWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MIZ"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MZAWAL@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "ZZI"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "ZZIELINSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "KZU"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "KZUCHOWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MZY"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MZYSK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "PJAT"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "PJATCZAK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "TKAL"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "TKALINOWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "AKAW"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "AKAWECKA@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "JKL"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "JKLONOWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MKN"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MKNYREK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "LAUL"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "LLUI@BOCCARD.COM",
+        "UAT Environment": "LLIU@BOCCARD.COM"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "PKO"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "PKOKOLUS@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "TOK"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "TKOMOROWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "AKOR"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "AKORSAK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "TAD"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "TKORZEN@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "KOZ"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MKOZLOWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "JKR"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "JKRENSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "TKU"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "TKULAJ@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "KRK"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "KKUPCZYK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "GSH"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "GSEEHOYE@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "BFR"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "BFRIN@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "JPBA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "JPBAUDOUARD@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "ECO"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "ECORONA@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "DAH"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "DHERNANDEZ@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "DHO"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "DHORLACHER@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "LGRI"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "LGRIEBEL@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "SAG"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "SJAMHALE@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MLA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MLAMKA@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "JLIS"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "JLIS@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "JLI"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "JLISZEWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "SLUB"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "SLUBERADZKA@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "SNO"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "SNOURY@BOCCARD.FR",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "ROUA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "AROUAULT@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "EMC"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "ECARON@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "OAN"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "OANDE@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "ASIL"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "ASILUE@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "DEJ"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "JDEJOIN@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "JJA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "JJAMET@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "LZA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "LZAKOWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "AWI"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "AWIETRZYKOWSKA@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "TOS"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "TSOLARSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MATL"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MLISOWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "BMI"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "bmiazga.ext@boccardkates.pl",
+        "UAT Environment": "BMIAZGA.EXT@BOCCARDKATES.PL"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "KLA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "KLABECKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "WMA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "WMACIEJUK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MMAJ"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MMAJEWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "TOMA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "TMALAK@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "DAW"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "DMAZUROWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MMIC"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MMICHALSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "KMI"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "KMIECZKOWSKI@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MIK"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "DMIKULSKA@BOCCARDKATES.PL",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "MFL"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "MFBLAPEYRONNIE@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "DEI"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "DIRELAND@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "BRY"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "BBALLINGER@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "BCR"
+      }
+    ],
+    "differences": {
+      "WebUser": {
+        "ACC Environment": "BCR",
+        "UAT Environment": "BCRUZ@BOCCARD.COM"
+      },
+      "DefaultIdp": {
+        "ACC Environment": true,
+        "UAT Environment": false
+      },
+      "UserEmail": {
+        "ACC Environment": "BCRUZ@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "ANCA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "ACARBAJAL@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "LGIL"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "LGILES@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "DUS"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "DHARRIS@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "ANSA"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "ASANTOS@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "CHI"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "CHILL@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "PAI"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "FPAILLOT@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "DUD"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "DDAM@BOCCARD.COM",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "GUE"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "tguerrier@boccard.fr",
+        "UAT Environment": "TGUERRIER@BOCCARD.FR"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "APAR"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "aparepa@boccard.ro",
+        "UAT Environment": "APAREPA@BOCCARD.RO"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "BRCH"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "bcharrassin@boccard.fr",
+        "UAT Environment": "BCHARRASSIN@BOCCARD.FR"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "PLUQUET"
+      }
+    ],
+    "Identity": "PLUQUET",
+    "Description": "Pierre Luquet",
+    "WebUser": "PIERRE.LUQUET@CAPGEMINI.COM",
+    "UserType": "EndUser",
+    "Active": true,
+    "ValidFrom": null,
+    "ValidTo": null,
+    "DefaultIdp": true,
+    "FromScim": "FALSE",
+    "UserEmail": "pierre.luquet@capgemini.com",
+    "PreferredLanguage": null,
+    "HasPinCode": false,
+    "PersonId": "PLUQUET",
+    "IsLtuUser": false,
+    "PersonCreation": null,
+    "Source": "UAT Environment",
+    "MissingFrom": "ACC Environment"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "RLAGET"
+      }
+    ],
+    "differences": {
+      "WebUser": {
+        "ACC Environment": "RLAGET.EXT@BOCCARD-SERVICES.CH",
+        "UAT Environment": "RLAGET@DELOITTE.FR"
+      },
+      "DefaultIdp": {
+        "ACC Environment": true,
+        "UAT Environment": false
+      },
+      "UserEmail": {
+        "ACC Environment": null,
+        "UAT Environment": "rlaget@deloitte.fr"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "ADS"
+      }
+    ],
+    "differences": {
+      "UserEmail": {
+        "ACC Environment": "asavescu@boccard.ro",
+        "UAT Environment": "ASAVESCU@BOCCARD.RO"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "GLEV"
+      }
+    ],
+    "Identity": "GLEV",
+    "Description": "Gregory LEVIGNE",
+    "WebUser": "GLEVIGNE@BOCCARD.FR",
+    "UserType": "EndUser",
+    "Active": true,
+    "ValidFrom": null,
+    "ValidTo": null,
+    "DefaultIdp": false,
+    "FromScim": "FALSE",
+    "UserEmail": "glevigne@boccard.fr",
+    "PreferredLanguage": null,
+    "HasPinCode": false,
+    "PersonId": "GLEV",
+    "IsLtuUser": false,
+    "PersonCreation": null,
+    "Source": "UAT Environment",
+    "MissingFrom": "ACC Environment"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "ADYB"
+      }
+    ],
+    "differences": {
+      "DefaultIdp": {
+        "ACC Environment": true,
+        "UAT Environment": false
+      },
+      "PersonId": {
+        "ACC Environment": "ADYB",
+        "UAT Environment": null
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Identity",
+        "value": "XHUANG"
+      }
+    ],
+    "differences": {
+      "DefaultIdp": {
+        "ACC Environment": true,
+        "UAT Environment": false
+      },
+      "UserEmail": {
+        "ACC Environment": null,
+        "UAT Environment": "xhuang.ext@boccard-services.ch"
+      }
+    }
+  }
+]

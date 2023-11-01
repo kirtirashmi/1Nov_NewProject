@@ -1,0 +1,242 @@
+[
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B001"
+      },
+      {
+        "key": "FaCalendarId",
+        "value": "FA"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objgrants": null,
+    "Company": "B001",
+    "FaCalendarId": "FA",
+    "Description": "Fixed Assets Default Calendar",
+    "DefaultCalendar": true,
+    "DefCalendar": "FA"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B007"
+      },
+      {
+        "key": "FaCalendarId",
+        "value": "FA"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objgrants": null,
+    "Company": "B007",
+    "FaCalendarId": "FA",
+    "Description": "Fixed Assets Default Calendar",
+    "DefaultCalendar": true,
+    "DefCalendar": "FA"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO22"
+      },
+      {
+        "key": "FaCalendarId",
+        "value": "FA"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objgrants": null,
+    "Company": "BO22",
+    "FaCalendarId": "FA",
+    "Description": "Fixed Assets Default Calendar",
+    "DefaultCalendar": true,
+    "DefCalendar": "FA"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO-07"
+      },
+      {
+        "key": "FaCalendarId",
+        "value": "FA"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objgrants": null,
+    "Company": "BO-07",
+    "FaCalendarId": "FA",
+    "Description": "Fixed Assets Default Calendar",
+    "DefaultCalendar": true,
+    "DefCalendar": "FA"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO-22"
+      },
+      {
+        "key": "FaCalendarId",
+        "value": "FA"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objgrants": null,
+    "Company": "BO-22",
+    "FaCalendarId": "FA",
+    "Description": "Fixed Assets Default Calendar",
+    "DefaultCalendar": true,
+    "DefCalendar": "FA"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO03"
+      },
+      {
+        "key": "FaCalendarId",
+        "value": "FA"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objgrants": null,
+    "Company": "BO03",
+    "FaCalendarId": "FA",
+    "Description": "Fixed Assets Default Calendar",
+    "DefaultCalendar": true,
+    "DefCalendar": "FA"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022P"
+      },
+      {
+        "key": "FaCalendarId",
+        "value": "FA"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objgrants": null,
+    "Company": "B022P",
+    "FaCalendarId": "FA",
+    "Description": "Fixed Assets Default Calendar",
+    "DefaultCalendar": true,
+    "DefCalendar": "FA"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "CUT"
+      },
+      {
+        "key": "FaCalendarId",
+        "value": "FA"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objgrants": null,
+    "Company": "CUT",
+    "FaCalendarId": "FA",
+    "Description": "Fixed Assets Default Calendar",
+    "DefaultCalendar": true,
+    "DefCalendar": "FA"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO07"
+      },
+      {
+        "key": "FaCalendarId",
+        "value": "FA"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objgrants": null,
+    "Company": "BO07",
+    "FaCalendarId": "FA",
+    "Description": "Fixed Assets Default Calendar",
+    "DefaultCalendar": true,
+    "DefCalendar": "FA"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO01"
+      },
+      {
+        "key": "FaCalendarId",
+        "value": "FA"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objgrants": null,
+    "Company": "BO01",
+    "FaCalendarId": "FA",
+    "Description": "Fixed Assets Default Calendar",
+    "DefaultCalendar": true,
+    "DefCalendar": "FA"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B002"
+      },
+      {
+        "key": "FaCalendarId",
+        "value": "FA"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objgrants": null,
+    "Company": "B002",
+    "FaCalendarId": "FA",
+    "Description": "Fixed Assets Default Calendar",
+    "DefaultCalendar": true,
+    "DefCalendar": "FA"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO04"
+      },
+      {
+        "key": "FaCalendarId",
+        "value": "FA"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objgrants": null,
+    "Company": "BO04",
+    "FaCalendarId": "FA",
+    "Description": "Fixed Assets Default Calendar",
+    "DefaultCalendar": true,
+    "DefCalendar": "FA"
+  }
+]

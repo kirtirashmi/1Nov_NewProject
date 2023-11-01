@@ -1,0 +1,1353 @@
+[
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "010010"
+      }
+    ],
+    "differences": {
+      "ReqCodeG": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "010020"
+      }
+    ],
+    "differences": {
+      "ReqCodeG": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "010100"
+      }
+    ],
+    "differences": {
+      "ReqCodeG": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "010200"
+      }
+    ],
+    "differences": {
+      "ReqCodeG": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "010300"
+      }
+    ],
+    "differences": {
+      "ReqCodeG": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "010400"
+      }
+    ],
+    "differences": {
+      "ReqCodeG": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "010600"
+      }
+    ],
+    "differences": {
+      "ReqCodeG": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "010700"
+      }
+    ],
+    "differences": {
+      "ReqCodeG": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "010800"
+      }
+    ],
+    "differences": {
+      "ReqCodeG": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "080100"
+      }
+    ],
+    "differences": {
+      "CodeStringCompletionExists": {
+        "ACC Environment": true,
+        "UAT Environment": false
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "202399"
+      }
+    ],
+    "differences": {
+      "CodeStringCompletionExists": {
+        "ACC Environment": true,
+        "UAT Environment": false
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "204199"
+      }
+    ],
+    "Company": "B022",
+    "CodePart": "A",
+    "Account": "204199",
+    "ValidFrom": "2022-01-01",
+    "ValidUntil": "2099-12-31",
+    "AccountingTextId": null,
+    "ReportingEntity": null,
+    "Description": "CR Rozrachunki zagraniczne z powiązanymi dostawcami z tytułu dostaw i usług, płatne do 12 miesięcy",
+    "AccntGroup": "204",
+    "AccntType": "PASYWA",
+    "LogicalAccountType": "Liabilities",
+    "ProcessCode": null,
+    "LedgFlag": "LedgerAccount",
+    "ReqCodeB": "Mandatory",
+    "ReqCodeC": "Blocked",
+    "ReqCodeD": "Can",
+    "ReqCodeE": "Can",
+    "ReqCodeF": "Can",
+    "ReqCodeG": "Can",
+    "ReqCodeH": "Mandatory",
+    "ReqCodeI": "Blocked",
+    "ReqCodeJ": "Blocked",
+    "ReqQuantity": "Can",
+    "ReqText": "Can",
+    "ReqProcessCode": "Can",
+    "ReqBudgetCodeB": "Can",
+    "ReqBudgetCodeC": "Can",
+    "ReqBudgetCodeD": "Can",
+    "ReqBudgetCodeE": "Can",
+    "ReqBudgetCodeF": "Can",
+    "ReqBudgetCodeG": "Can",
+    "ReqBudgetCodeH": "Can",
+    "ReqBudgetCodeI": "Blocked",
+    "ReqBudgetCodeJ": "Blocked",
+    "ReqBudgetQuantity": "Can",
+    "MasterCompany": null,
+    "CurrBalance": "CurrencyBalance",
+    "MasterComCodePartValue": null,
+    "BudAccount": "NotBudgetAccount",
+    "StatAccount": "NoStatisticalAccount",
+    "Text": "Can",
+    "TaxHandlingValue": "All",
+    "TaxFlag": "NotTaxAccount",
+    "ArchivingTransValue": "AllTransactions",
+    "TaxCodeMandatory": false,
+    "SortValue": "00000000000000204199",
+    "ExcludeProjFollowup": true,
+    "ExcludePeriodicalCap": "IncludeInAllLedgers",
+    "ExcludeFromCurrTrans": false,
+    "KeepRepCurrency": false,
+    "KeepReportingEntity": false,
+    "IncludeInRevRec": false,
+    "ExchangeDifference": false,
+    "SatAccountType": null,
+    "SatAccountGroup": null,
+    "SatLevel": null,
+    "SatParentAccount": null,
+    "AccountSearch": "204199",
+    "LedgFlagDb": true,
+    "CurrBalanceDb": true,
+    "TaxFlagDb": false,
+    "BudAccountDb": false,
+    "StatAccountDb": false,
+    "CodeStringCompletionExists": true,
+    "AttributeExists": false,
+    "KeepRepCurrencyDb": false,
+    "KeepReportingEntityDb": false,
+    "ExchangeDifferenceDb": false,
+    "Value": "204199",
+    "Source": "UAT Environment",
+    "MissingFrom": "ACC Environment"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "244100"
+      }
+    ],
+    "differences": {
+      "LedgFlag": {
+        "ACC Environment": "LedgerAccount",
+        "UAT Environment": "NotLedgerAccount"
+      },
+      "LedgFlagDb": {
+        "ACC Environment": true,
+        "UAT Environment": false
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "755101"
+      }
+    ],
+    "differences": {
+      "ReqCodeD": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      },
+      "ReqCodeE": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      },
+      "ReqCodeF": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "755501"
+      }
+    ],
+    "differences": {
+      "ReqCodeD": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      },
+      "ReqCodeE": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      },
+      "ReqCodeF": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "755120"
+      }
+    ],
+    "Company": "B022",
+    "CodePart": "A",
+    "Account": "755120",
+    "ValidFrom": "2022-01-01",
+    "ValidUntil": "2099-12-31",
+    "AccountingTextId": null,
+    "ReportingEntity": null,
+    "Description": "Dodatnie roznice kursowe- materialy",
+    "AccntGroup": "755",
+    "AccntType": "PRZYCHODY",
+    "LogicalAccountType": "Revenues",
+    "ProcessCode": null,
+    "LedgFlag": "NotLedgerAccount",
+    "ReqCodeB": "Mandatory",
+    "ReqCodeC": "Blocked",
+    "ReqCodeD": "Mandatory",
+    "ReqCodeE": "Mandatory",
+    "ReqCodeF": "Mandatory",
+    "ReqCodeG": "Can",
+    "ReqCodeH": "Can",
+    "ReqCodeI": "Blocked",
+    "ReqCodeJ": "Blocked",
+    "ReqQuantity": "Can",
+    "ReqText": "Can",
+    "ReqProcessCode": "Can",
+    "ReqBudgetCodeB": "Can",
+    "ReqBudgetCodeC": "Can",
+    "ReqBudgetCodeD": "Can",
+    "ReqBudgetCodeE": "Can",
+    "ReqBudgetCodeF": "Can",
+    "ReqBudgetCodeG": "Can",
+    "ReqBudgetCodeH": "Can",
+    "ReqBudgetCodeI": "Blocked",
+    "ReqBudgetCodeJ": "Blocked",
+    "ReqBudgetQuantity": "Can",
+    "MasterCompany": null,
+    "CurrBalance": "CurrencyBalance",
+    "MasterComCodePartValue": null,
+    "BudAccount": "NotBudgetAccount",
+    "StatAccount": "NoStatisticalAccount",
+    "Text": "Can",
+    "TaxHandlingValue": "All",
+    "TaxFlag": "NotTaxAccount",
+    "ArchivingTransValue": "AllTransactions",
+    "TaxCodeMandatory": false,
+    "SortValue": "00000000000000755120",
+    "ExcludeProjFollowup": false,
+    "ExcludePeriodicalCap": "IncludeInAllLedgers",
+    "ExcludeFromCurrTrans": false,
+    "KeepRepCurrency": false,
+    "KeepReportingEntity": false,
+    "IncludeInRevRec": false,
+    "ExchangeDifference": false,
+    "SatAccountType": null,
+    "SatAccountGroup": null,
+    "SatLevel": null,
+    "SatParentAccount": null,
+    "AccountSearch": "755120",
+    "LedgFlagDb": false,
+    "CurrBalanceDb": true,
+    "TaxFlagDb": false,
+    "BudAccountDb": false,
+    "StatAccountDb": false,
+    "CodeStringCompletionExists": true,
+    "AttributeExists": false,
+    "KeepRepCurrencyDb": false,
+    "KeepReportingEntityDb": false,
+    "ExchangeDifferenceDb": false,
+    "Value": "755120",
+    "Source": "UAT Environment",
+    "MissingFrom": "ACC Environment"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "755520"
+      }
+    ],
+    "Company": "B022",
+    "CodePart": "A",
+    "Account": "755520",
+    "ValidFrom": "2022-01-01",
+    "ValidUntil": "2099-12-31",
+    "AccountingTextId": null,
+    "ReportingEntity": null,
+    "Description": "Ujemne roznice kursowe- materialy",
+    "AccntGroup": "755",
+    "AccntType": "KOSZTY",
+    "LogicalAccountType": "Cost",
+    "ProcessCode": null,
+    "LedgFlag": "NotLedgerAccount",
+    "ReqCodeB": "Mandatory",
+    "ReqCodeC": "Blocked",
+    "ReqCodeD": "Mandatory",
+    "ReqCodeE": "Mandatory",
+    "ReqCodeF": "Mandatory",
+    "ReqCodeG": "Can",
+    "ReqCodeH": "Can",
+    "ReqCodeI": "Blocked",
+    "ReqCodeJ": "Blocked",
+    "ReqQuantity": "Can",
+    "ReqText": "Can",
+    "ReqProcessCode": "Can",
+    "ReqBudgetCodeB": "Can",
+    "ReqBudgetCodeC": "Can",
+    "ReqBudgetCodeD": "Can",
+    "ReqBudgetCodeE": "Can",
+    "ReqBudgetCodeF": "Can",
+    "ReqBudgetCodeG": "Can",
+    "ReqBudgetCodeH": "Can",
+    "ReqBudgetCodeI": "Blocked",
+    "ReqBudgetCodeJ": "Blocked",
+    "ReqBudgetQuantity": "Can",
+    "MasterCompany": null,
+    "CurrBalance": "CurrencyBalance",
+    "MasterComCodePartValue": null,
+    "BudAccount": "NotBudgetAccount",
+    "StatAccount": "NoStatisticalAccount",
+    "Text": "Can",
+    "TaxHandlingValue": "All",
+    "TaxFlag": "NotTaxAccount",
+    "ArchivingTransValue": "AllTransactions",
+    "TaxCodeMandatory": false,
+    "SortValue": "00000000000000755520",
+    "ExcludeProjFollowup": false,
+    "ExcludePeriodicalCap": "IncludeInAllLedgers",
+    "ExcludeFromCurrTrans": false,
+    "KeepRepCurrency": false,
+    "KeepReportingEntity": false,
+    "IncludeInRevRec": false,
+    "ExchangeDifference": false,
+    "SatAccountType": null,
+    "SatAccountGroup": null,
+    "SatLevel": null,
+    "SatParentAccount": null,
+    "AccountSearch": "755520",
+    "LedgFlagDb": false,
+    "CurrBalanceDb": true,
+    "TaxFlagDb": false,
+    "BudAccountDb": false,
+    "StatAccountDb": false,
+    "CodeStringCompletionExists": true,
+    "AttributeExists": false,
+    "KeepRepCurrencyDb": false,
+    "KeepReportingEntityDb": false,
+    "ExchangeDifferenceDb": false,
+    "Value": "755520",
+    "Source": "UAT Environment",
+    "MissingFrom": "ACC Environment"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "94030"
+      }
+    ],
+    "differences": {
+      "CodeStringCompletionExists": {
+        "ACC Environment": true,
+        "UAT Environment": false
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "964000"
+      }
+    ],
+    "differences": {
+      "Text": {
+        "ACC Environment": null,
+        "UAT Environment": "Can"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "Account",
+        "value": "964500"
+      }
+    ],
+    "differences": {
+      "Text": {
+        "ACC Environment": null,
+        "UAT Environment": "Can"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "Account",
+        "value": "1010"
+      }
+    ],
+    "differences": {
+      "ReqCodeH": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "Account",
+        "value": "1210"
+      }
+    ],
+    "differences": {
+      "ReqCodeE": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      },
+      "ReqCodeF": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "Account",
+        "value": "1360"
+      }
+    ],
+    "differences": {
+      "ReqCodeE": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      },
+      "ReqCodeF": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "Account",
+        "value": "1210N"
+      }
+    ],
+    "differences": {
+      "CodeStringCompletionExists": {
+        "ACC Environment": true,
+        "UAT Environment": false
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "Account",
+        "value": "1215N"
+      }
+    ],
+    "differences": {
+      "CodeStringCompletionExists": {
+        "ACC Environment": true,
+        "UAT Environment": false
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "Account",
+        "value": "1520"
+      }
+    ],
+    "differences": {
+      "ReqCodeE": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      },
+      "ReqCodeF": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      },
+      "ExcludeProjFollowup": {
+        "ACC Environment": false,
+        "UAT Environment": true
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "Account",
+        "value": "1570"
+      }
+    ],
+    "differences": {
+      "ReqCodeG": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      },
+      "ExcludeProjFollowup": {
+        "ACC Environment": false,
+        "UAT Environment": true
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "Account",
+        "value": "1SALES"
+      }
+    ],
+    "Company": "B032",
+    "CodePart": "A",
+    "Account": "1SALES",
+    "ValidFrom": "2022-01-01",
+    "ValidUntil": "2099-12-31",
+    "AccountingTextId": null,
+    "ReportingEntity": null,
+    "Description": "SALES",
+    "AccntGroup": "999",
+    "AccntType": "STATISTICS",
+    "LogicalAccountType": "Statistics",
+    "ProcessCode": null,
+    "LedgFlag": "NotLedgerAccount",
+    "ReqCodeB": "Can",
+    "ReqCodeC": "Can",
+    "ReqCodeD": "Can",
+    "ReqCodeE": "Can",
+    "ReqCodeF": "Can",
+    "ReqCodeG": "Can",
+    "ReqCodeH": "Can",
+    "ReqCodeI": "Blocked",
+    "ReqCodeJ": "Blocked",
+    "ReqQuantity": "Can",
+    "ReqText": "Can",
+    "ReqProcessCode": "Can",
+    "ReqBudgetCodeB": "Can",
+    "ReqBudgetCodeC": "Can",
+    "ReqBudgetCodeD": "Can",
+    "ReqBudgetCodeE": "Can",
+    "ReqBudgetCodeF": "Can",
+    "ReqBudgetCodeG": "Can",
+    "ReqBudgetCodeH": "Can",
+    "ReqBudgetCodeI": "Blocked",
+    "ReqBudgetCodeJ": "Blocked",
+    "ReqBudgetQuantity": "Can",
+    "MasterCompany": null,
+    "CurrBalance": "NoCurrencyBalance",
+    "MasterComCodePartValue": null,
+    "BudAccount": "NotBudgetAccount",
+    "StatAccount": "NoStatisticalAccount",
+    "Text": null,
+    "TaxHandlingValue": "All",
+    "TaxFlag": "NotTaxAccount",
+    "ArchivingTransValue": "AllTransactions",
+    "TaxCodeMandatory": false,
+    "SortValue": "1SALES",
+    "ExcludeProjFollowup": false,
+    "ExcludePeriodicalCap": "IncludeInAllLedgers",
+    "ExcludeFromCurrTrans": false,
+    "KeepRepCurrency": false,
+    "KeepReportingEntity": false,
+    "IncludeInRevRec": false,
+    "ExchangeDifference": false,
+    "SatAccountType": null,
+    "SatAccountGroup": null,
+    "SatLevel": null,
+    "SatParentAccount": null,
+    "AccountSearch": "1SALES",
+    "LedgFlagDb": false,
+    "CurrBalanceDb": false,
+    "TaxFlagDb": false,
+    "BudAccountDb": false,
+    "StatAccountDb": false,
+    "CodeStringCompletionExists": false,
+    "AttributeExists": false,
+    "KeepRepCurrencyDb": false,
+    "KeepReportingEntityDb": false,
+    "ExchangeDifferenceDb": false,
+    "Value": "1SALES",
+    "Source": "UAT Environment",
+    "MissingFrom": "ACC Environment"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "Account",
+        "value": "1ISC"
+      }
+    ],
+    "Company": "B032",
+    "CodePart": "A",
+    "Account": "1ISC",
+    "ValidFrom": "2022-01-01",
+    "ValidUntil": "2099-12-31",
+    "AccountingTextId": null,
+    "ReportingEntity": null,
+    "Description": "INTERNAL SUBCONTRACT",
+    "AccntGroup": "999",
+    "AccntType": "STATISTICS",
+    "LogicalAccountType": "Statistics",
+    "ProcessCode": null,
+    "LedgFlag": "NotLedgerAccount",
+    "ReqCodeB": "Can",
+    "ReqCodeC": "Can",
+    "ReqCodeD": "Can",
+    "ReqCodeE": "Can",
+    "ReqCodeF": "Can",
+    "ReqCodeG": "Can",
+    "ReqCodeH": "Can",
+    "ReqCodeI": "Blocked",
+    "ReqCodeJ": "Blocked",
+    "ReqQuantity": "Can",
+    "ReqText": "Can",
+    "ReqProcessCode": "Can",
+    "ReqBudgetCodeB": "Can",
+    "ReqBudgetCodeC": "Can",
+    "ReqBudgetCodeD": "Can",
+    "ReqBudgetCodeE": "Can",
+    "ReqBudgetCodeF": "Can",
+    "ReqBudgetCodeG": "Can",
+    "ReqBudgetCodeH": "Can",
+    "ReqBudgetCodeI": "Blocked",
+    "ReqBudgetCodeJ": "Blocked",
+    "ReqBudgetQuantity": "Can",
+    "MasterCompany": null,
+    "CurrBalance": "NoCurrencyBalance",
+    "MasterComCodePartValue": null,
+    "BudAccount": "NotBudgetAccount",
+    "StatAccount": "NoStatisticalAccount",
+    "Text": null,
+    "TaxHandlingValue": "All",
+    "TaxFlag": "NotTaxAccount",
+    "ArchivingTransValue": "AllTransactions",
+    "TaxCodeMandatory": false,
+    "SortValue": "1ISC",
+    "ExcludeProjFollowup": false,
+    "ExcludePeriodicalCap": "IncludeInAllLedgers",
+    "ExcludeFromCurrTrans": false,
+    "KeepRepCurrency": false,
+    "KeepReportingEntity": false,
+    "IncludeInRevRec": false,
+    "ExchangeDifference": false,
+    "SatAccountType": null,
+    "SatAccountGroup": null,
+    "SatLevel": null,
+    "SatParentAccount": null,
+    "AccountSearch": "1ISC",
+    "LedgFlagDb": false,
+    "CurrBalanceDb": false,
+    "TaxFlagDb": false,
+    "BudAccountDb": false,
+    "StatAccountDb": false,
+    "CodeStringCompletionExists": false,
+    "AttributeExists": false,
+    "KeepRepCurrencyDb": false,
+    "KeepReportingEntityDb": false,
+    "ExchangeDifferenceDb": false,
+    "Value": "1ISC",
+    "Source": "UAT Environment",
+    "MissingFrom": "ACC Environment"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "Account",
+        "value": "1WIP"
+      }
+    ],
+    "Company": "B032",
+    "CodePart": "A",
+    "Account": "1WIP",
+    "ValidFrom": "2022-01-01",
+    "ValidUntil": "2099-12-31",
+    "AccountingTextId": null,
+    "ReportingEntity": null,
+    "Description": "WORK IN PROGRESS",
+    "AccntGroup": "999",
+    "AccntType": "STATISTICS",
+    "LogicalAccountType": "Statistics",
+    "ProcessCode": null,
+    "LedgFlag": "NotLedgerAccount",
+    "ReqCodeB": "Can",
+    "ReqCodeC": "Can",
+    "ReqCodeD": "Can",
+    "ReqCodeE": "Can",
+    "ReqCodeF": "Can",
+    "ReqCodeG": "Can",
+    "ReqCodeH": "Can",
+    "ReqCodeI": "Blocked",
+    "ReqCodeJ": "Blocked",
+    "ReqQuantity": "Can",
+    "ReqText": "Can",
+    "ReqProcessCode": "Can",
+    "ReqBudgetCodeB": "Can",
+    "ReqBudgetCodeC": "Can",
+    "ReqBudgetCodeD": "Can",
+    "ReqBudgetCodeE": "Can",
+    "ReqBudgetCodeF": "Can",
+    "ReqBudgetCodeG": "Can",
+    "ReqBudgetCodeH": "Can",
+    "ReqBudgetCodeI": "Blocked",
+    "ReqBudgetCodeJ": "Blocked",
+    "ReqBudgetQuantity": "Can",
+    "MasterCompany": null,
+    "CurrBalance": "NoCurrencyBalance",
+    "MasterComCodePartValue": null,
+    "BudAccount": "NotBudgetAccount",
+    "StatAccount": "NoStatisticalAccount",
+    "Text": null,
+    "TaxHandlingValue": "All",
+    "TaxFlag": "NotTaxAccount",
+    "ArchivingTransValue": "AllTransactions",
+    "TaxCodeMandatory": false,
+    "SortValue": "1WIP",
+    "ExcludeProjFollowup": false,
+    "ExcludePeriodicalCap": "IncludeInAllLedgers",
+    "ExcludeFromCurrTrans": false,
+    "KeepRepCurrency": false,
+    "KeepReportingEntity": false,
+    "IncludeInRevRec": false,
+    "ExchangeDifference": false,
+    "SatAccountType": null,
+    "SatAccountGroup": null,
+    "SatLevel": null,
+    "SatParentAccount": null,
+    "AccountSearch": "1WIP",
+    "LedgFlagDb": false,
+    "CurrBalanceDb": false,
+    "TaxFlagDb": false,
+    "BudAccountDb": false,
+    "StatAccountDb": false,
+    "CodeStringCompletionExists": false,
+    "AttributeExists": false,
+    "KeepRepCurrencyDb": false,
+    "KeepReportingEntityDb": false,
+    "ExchangeDifferenceDb": false,
+    "Value": "1WIP",
+    "Source": "UAT Environment",
+    "MissingFrom": "ACC Environment"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "Account",
+        "value": "2110"
+      }
+    ],
+    "differences": {
+      "ReqCodeE": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      },
+      "ReqCodeF": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "Account",
+        "value": "2120"
+      }
+    ],
+    "differences": {
+      "ReqCodeE": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      },
+      "ReqCodeF": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      },
+      "ReqCodeH": {
+        "ACC Environment": "Can",
+        "UAT Environment": "Mandatory"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "Account",
+        "value": "94030"
+      }
+    ],
+    "differences": {
+      "CodeStringCompletionExists": {
+        "ACC Environment": true,
+        "UAT Environment": false
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "Account",
+        "value": "992210"
+      }
+    ],
+    "differences": {
+      "ReqCodeE": {
+        "ACC Environment": "Mandatory",
+        "UAT Environment": "Can"
+      },
+      "ReqCodeF": {
+        "ACC Environment": "Mandatory",
+        "UAT Environment": "Can"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B034"
+      },
+      {
+        "key": "Account",
+        "value": "1WIP"
+      }
+    ],
+    "Company": "B034",
+    "CodePart": "A",
+    "Account": "1WIP",
+    "ValidFrom": "2022-01-01",
+    "ValidUntil": "2099-12-31",
+    "AccountingTextId": null,
+    "ReportingEntity": null,
+    "Description": "WORK IN PROGRESS",
+    "AccntGroup": "999",
+    "AccntType": "STATISTICS",
+    "LogicalAccountType": "Statistics",
+    "ProcessCode": null,
+    "LedgFlag": "NotLedgerAccount",
+    "ReqCodeB": "Can",
+    "ReqCodeC": "Can",
+    "ReqCodeD": "Can",
+    "ReqCodeE": "Can",
+    "ReqCodeF": "Can",
+    "ReqCodeG": "Can",
+    "ReqCodeH": "Can",
+    "ReqCodeI": "Blocked",
+    "ReqCodeJ": "Blocked",
+    "ReqQuantity": "Can",
+    "ReqText": "Can",
+    "ReqProcessCode": "Can",
+    "ReqBudgetCodeB": "Can",
+    "ReqBudgetCodeC": "Can",
+    "ReqBudgetCodeD": "Can",
+    "ReqBudgetCodeE": "Can",
+    "ReqBudgetCodeF": "Can",
+    "ReqBudgetCodeG": "Can",
+    "ReqBudgetCodeH": "Can",
+    "ReqBudgetCodeI": "Blocked",
+    "ReqBudgetCodeJ": "Blocked",
+    "ReqBudgetQuantity": "Can",
+    "MasterCompany": null,
+    "CurrBalance": "NoCurrencyBalance",
+    "MasterComCodePartValue": null,
+    "BudAccount": "NotBudgetAccount",
+    "StatAccount": "NoStatisticalAccount",
+    "Text": null,
+    "TaxHandlingValue": "All",
+    "TaxFlag": "NotTaxAccount",
+    "ArchivingTransValue": "AllTransactions",
+    "TaxCodeMandatory": false,
+    "SortValue": "1WIP",
+    "ExcludeProjFollowup": false,
+    "ExcludePeriodicalCap": "IncludeInAllLedgers",
+    "ExcludeFromCurrTrans": false,
+    "KeepRepCurrency": false,
+    "KeepReportingEntity": false,
+    "IncludeInRevRec": false,
+    "ExchangeDifference": false,
+    "SatAccountType": null,
+    "SatAccountGroup": null,
+    "SatLevel": null,
+    "SatParentAccount": null,
+    "AccountSearch": "1WIP",
+    "LedgFlagDb": false,
+    "CurrBalanceDb": false,
+    "TaxFlagDb": false,
+    "BudAccountDb": false,
+    "StatAccountDb": false,
+    "CodeStringCompletionExists": false,
+    "AttributeExists": false,
+    "KeepRepCurrencyDb": false,
+    "KeepReportingEntityDb": false,
+    "ExchangeDifferenceDb": false,
+    "Value": "1WIP",
+    "Source": "UAT Environment",
+    "MissingFrom": "ACC Environment"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B034"
+      },
+      {
+        "key": "Account",
+        "value": "1ISC"
+      }
+    ],
+    "Company": "B034",
+    "CodePart": "A",
+    "Account": "1ISC",
+    "ValidFrom": "2022-01-01",
+    "ValidUntil": "2099-12-31",
+    "AccountingTextId": null,
+    "ReportingEntity": null,
+    "Description": "INTERNAL SUBCONTRACT",
+    "AccntGroup": "999",
+    "AccntType": "STATISTICS",
+    "LogicalAccountType": "Statistics",
+    "ProcessCode": null,
+    "LedgFlag": "NotLedgerAccount",
+    "ReqCodeB": "Can",
+    "ReqCodeC": "Can",
+    "ReqCodeD": "Can",
+    "ReqCodeE": "Can",
+    "ReqCodeF": "Can",
+    "ReqCodeG": "Can",
+    "ReqCodeH": "Can",
+    "ReqCodeI": "Blocked",
+    "ReqCodeJ": "Blocked",
+    "ReqQuantity": "Can",
+    "ReqText": "Can",
+    "ReqProcessCode": "Can",
+    "ReqBudgetCodeB": "Can",
+    "ReqBudgetCodeC": "Can",
+    "ReqBudgetCodeD": "Can",
+    "ReqBudgetCodeE": "Can",
+    "ReqBudgetCodeF": "Can",
+    "ReqBudgetCodeG": "Can",
+    "ReqBudgetCodeH": "Can",
+    "ReqBudgetCodeI": "Blocked",
+    "ReqBudgetCodeJ": "Blocked",
+    "ReqBudgetQuantity": "Can",
+    "MasterCompany": null,
+    "CurrBalance": "NoCurrencyBalance",
+    "MasterComCodePartValue": null,
+    "BudAccount": "NotBudgetAccount",
+    "StatAccount": "NoStatisticalAccount",
+    "Text": null,
+    "TaxHandlingValue": "All",
+    "TaxFlag": "NotTaxAccount",
+    "ArchivingTransValue": "AllTransactions",
+    "TaxCodeMandatory": false,
+    "SortValue": "1ISC",
+    "ExcludeProjFollowup": false,
+    "ExcludePeriodicalCap": "IncludeInAllLedgers",
+    "ExcludeFromCurrTrans": false,
+    "KeepRepCurrency": false,
+    "KeepReportingEntity": false,
+    "IncludeInRevRec": false,
+    "ExchangeDifference": false,
+    "SatAccountType": null,
+    "SatAccountGroup": null,
+    "SatLevel": null,
+    "SatParentAccount": null,
+    "AccountSearch": "1ISC",
+    "LedgFlagDb": false,
+    "CurrBalanceDb": false,
+    "TaxFlagDb": false,
+    "BudAccountDb": false,
+    "StatAccountDb": false,
+    "CodeStringCompletionExists": false,
+    "AttributeExists": false,
+    "KeepRepCurrencyDb": false,
+    "KeepReportingEntityDb": false,
+    "ExchangeDifferenceDb": false,
+    "Value": "1ISC",
+    "Source": "UAT Environment",
+    "MissingFrom": "ACC Environment"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B034"
+      },
+      {
+        "key": "Account",
+        "value": "1SALES"
+      }
+    ],
+    "Company": "B034",
+    "CodePart": "A",
+    "Account": "1SALES",
+    "ValidFrom": "2022-01-01",
+    "ValidUntil": "2099-12-31",
+    "AccountingTextId": null,
+    "ReportingEntity": null,
+    "Description": "SALES",
+    "AccntGroup": "999",
+    "AccntType": "STATISTICS",
+    "LogicalAccountType": "Statistics",
+    "ProcessCode": null,
+    "LedgFlag": "NotLedgerAccount",
+    "ReqCodeB": "Can",
+    "ReqCodeC": "Can",
+    "ReqCodeD": "Can",
+    "ReqCodeE": "Can",
+    "ReqCodeF": "Can",
+    "ReqCodeG": "Can",
+    "ReqCodeH": "Can",
+    "ReqCodeI": "Blocked",
+    "ReqCodeJ": "Blocked",
+    "ReqQuantity": "Can",
+    "ReqText": "Can",
+    "ReqProcessCode": "Can",
+    "ReqBudgetCodeB": "Can",
+    "ReqBudgetCodeC": "Can",
+    "ReqBudgetCodeD": "Can",
+    "ReqBudgetCodeE": "Can",
+    "ReqBudgetCodeF": "Can",
+    "ReqBudgetCodeG": "Can",
+    "ReqBudgetCodeH": "Can",
+    "ReqBudgetCodeI": "Blocked",
+    "ReqBudgetCodeJ": "Blocked",
+    "ReqBudgetQuantity": "Can",
+    "MasterCompany": null,
+    "CurrBalance": "NoCurrencyBalance",
+    "MasterComCodePartValue": null,
+    "BudAccount": "NotBudgetAccount",
+    "StatAccount": "NoStatisticalAccount",
+    "Text": null,
+    "TaxHandlingValue": "All",
+    "TaxFlag": "NotTaxAccount",
+    "ArchivingTransValue": "AllTransactions",
+    "TaxCodeMandatory": false,
+    "SortValue": "1SALES",
+    "ExcludeProjFollowup": false,
+    "ExcludePeriodicalCap": "IncludeInAllLedgers",
+    "ExcludeFromCurrTrans": false,
+    "KeepRepCurrency": false,
+    "KeepReportingEntity": false,
+    "IncludeInRevRec": false,
+    "ExchangeDifference": false,
+    "SatAccountType": null,
+    "SatAccountGroup": null,
+    "SatLevel": null,
+    "SatParentAccount": null,
+    "AccountSearch": "1SALES",
+    "LedgFlagDb": false,
+    "CurrBalanceDb": false,
+    "TaxFlagDb": false,
+    "BudAccountDb": false,
+    "StatAccountDb": false,
+    "CodeStringCompletionExists": false,
+    "AttributeExists": false,
+    "KeepRepCurrencyDb": false,
+    "KeepReportingEntityDb": false,
+    "ExchangeDifferenceDb": false,
+    "Value": "1SALES",
+    "Source": "UAT Environment",
+    "MissingFrom": "ACC Environment"
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B034"
+      },
+      {
+        "key": "Account",
+        "value": "94030"
+      }
+    ],
+    "differences": {
+      "CodeStringCompletionExists": {
+        "ACC Environment": true,
+        "UAT Environment": false
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B034"
+      },
+      {
+        "key": "Account",
+        "value": "992210"
+      }
+    ],
+    "differences": {
+      "ReqCodeE": {
+        "ACC Environment": "Mandatory",
+        "UAT Environment": "Can"
+      },
+      "ReqCodeF": {
+        "ACC Environment": "Mandatory",
+        "UAT Environment": "Can"
+      },
+      "CodeStringCompletionExists": {
+        "ACC Environment": false,
+        "UAT Environment": true
+      }
+    }
+  }
+]

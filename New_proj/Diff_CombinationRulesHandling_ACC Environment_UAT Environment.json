@@ -1,0 +1,722 @@
+[
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "AA"
+      },
+      "CombRuleId": {
+        "ACC Environment": 17,
+        "UAT Environment": 20
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "AC"
+      },
+      "CombRuleId": {
+        "ACC Environment": 17,
+        "UAT Environment": 10
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "AP"
+      },
+      "CombRuleId": {
+        "ACC Environment": 17,
+        "UAT Environment": 11
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "AR"
+      },
+      "CombRuleId": {
+        "ACC Environment": 17,
+        "UAT Environment": 12
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "BK"
+      },
+      "CombRuleId": {
+        "ACC Environment": 17,
+        "UAT Environment": 14
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "EX"
+      },
+      "CombRuleId": {
+        "ACC Environment": 17,
+        "UAT Environment": 15
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "PAY"
+      },
+      "CombRuleId": {
+        "ACC Environment": 17,
+        "UAT Environment": 18
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "SUPPORT"
+      },
+      "CombRuleId": {
+        "ACC Environment": 17,
+        "UAT Environment": 19
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "TT"
+      },
+      "CombRuleId": {
+        "ACC Environment": 17,
+        "UAT Environment": 21
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "CombRuleId": {
+        "ACC Environment": 11,
+        "UAT Environment": 12
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "AA",
+        "UAT Environment": "AC"
+      },
+      "CombRuleId": {
+        "ACC Environment": 11,
+        "UAT Environment": 1
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "AA",
+        "UAT Environment": "AP"
+      },
+      "CombRuleId": {
+        "ACC Environment": 11,
+        "UAT Environment": 2
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "AA",
+        "UAT Environment": "AR"
+      },
+      "CombRuleId": {
+        "ACC Environment": 11,
+        "UAT Environment": 3
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "AA",
+        "UAT Environment": "BK"
+      },
+      "CombRuleId": {
+        "ACC Environment": 11,
+        "UAT Environment": 5
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "AA",
+        "UAT Environment": "EX"
+      },
+      "CombRuleId": {
+        "ACC Environment": 11,
+        "UAT Environment": 6
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "AA",
+        "UAT Environment": "PAY"
+      },
+      "CombRuleId": {
+        "ACC Environment": 11,
+        "UAT Environment": 9
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "AA",
+        "UAT Environment": "SUPPORT"
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "AA",
+        "UAT Environment": "TT"
+      },
+      "CombRuleId": {
+        "ACC Environment": 11,
+        "UAT Environment": 13
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B032"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "AA",
+        "UAT Environment": "YE"
+      },
+      "CombRuleId": {
+        "ACC Environment": 11,
+        "UAT Environment": 8
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B034"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "AA"
+      },
+      "CombRuleId": {
+        "ACC Environment": 8,
+        "UAT Environment": 12
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B034"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "AC"
+      },
+      "CombRuleId": {
+        "ACC Environment": 8,
+        "UAT Environment": 1
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B034"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "AP"
+      },
+      "CombRuleId": {
+        "ACC Environment": 8,
+        "UAT Environment": 2
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B034"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "AR"
+      },
+      "CombRuleId": {
+        "ACC Environment": 8,
+        "UAT Environment": 3
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B034"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "BK"
+      },
+      "CombRuleId": {
+        "ACC Environment": 8,
+        "UAT Environment": 5
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B034"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "EX"
+      },
+      "CombRuleId": {
+        "ACC Environment": 8,
+        "UAT Environment": 6
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B034"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "PAY"
+      },
+      "CombRuleId": {
+        "ACC Environment": 8,
+        "UAT Environment": 9
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B034"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "SUPPORT"
+      },
+      "CombRuleId": {
+        "ACC Environment": 8,
+        "UAT Environment": 11
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B034"
+      },
+      {
+        "key": "PostingCombinationId",
+        "value": 1
+      },
+      {
+        "key": "ProcessCode",
+        "value": "%"
+      }
+    ],
+    "differences": {
+      "UserGroup": {
+        "ACC Environment": "YE",
+        "UAT Environment": "TT"
+      },
+      "CombRuleId": {
+        "ACC Environment": 8,
+        "UAT Environment": 13
+      }
+    }
+  }
+]

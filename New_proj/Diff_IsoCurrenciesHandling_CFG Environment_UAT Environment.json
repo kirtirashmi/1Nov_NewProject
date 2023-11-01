@@ -1,0 +1,58 @@
+[
+  {
+    "primaryKeyValue": [
+      {
+        "key": "CurrencyCode",
+        "value": "MXV"
+      }
+    ],
+    "differences": {
+      "UsedInAppl": {
+        "CFG Environment": false,
+        "UAT Environment": true
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "CurrencyCode",
+        "value": "OMR"
+      }
+    ],
+    "differences": {
+      "SystemAdded": {
+        "CFG Environment": false,
+        "UAT Environment": true
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "CurrencyCode",
+        "value": "SIT"
+      }
+    ],
+    "differences": {
+      "UsedInAppl": {
+        "CFG Environment": false,
+        "UAT Environment": true
+      }
+    }
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "CurrencyCode",
+        "value": "SKK"
+      }
+    ],
+    "differences": {
+      "UsedInAppl": {
+        "CFG Environment": false,
+        "UAT Environment": true
+      }
+    }
+  }
+]

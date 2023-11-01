@@ -1,0 +1,1870 @@
+{
+    "Projection": {
+        		
+        "CompanyHandling": {
+            "PrimaryKey": [
+                "Company"
+                
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CompanyHandling.svc/CompanySet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CompanyHandling.svc/CompanySet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CompanyHandling.svc/CompanySet"
+        },
+		
+		
+        "CompanySiteHandling": {
+            "PrimaryKey": [
+                "Contract"
+                
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CompanySiteHandling.svc/CompanySiteSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CompanySiteHandling.svc/CompanySiteSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CompanySiteHandling.svc/CompanySiteSet"
+        },
+		
+		
+		 "UserHandling": {
+            "PrimaryKey": [
+                "Identity"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/UserHandling.svc/Users",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/UserHandling.svc/Users",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/UserHandling.svc/Users"
+        },
+		
+		
+		 "UsersPerCompanyHandling": {
+            "PrimaryKey": [
+                "Company",
+                "Userid"
+                
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/UsersPerCompanyHandling.svc/CompanyFinanceSet(Company='COMPANY')/UserFinanceArray",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/UsersPerCompanyHandling.svc/CompanyFinanceSet(Company='COMPANY')/UserFinanceArray",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/UsersPerCompanyHandling.svc/CompanyFinanceSet(Company='COMPANY')/UserFinanceArray"
+        },
+		
+		
+		 "SitesPerUserHandling": {
+            "PrimaryKey": [
+                "Company",
+                "Userid"
+                
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/SitesPerUserHandling.svc/UserDefaults(Userid='Userid')/DetailSite",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/SitesPerUserHandling.svc/UserDefaults(Userid='Userid')/DetailSite",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/SitesPerUserHandling.svc/UserDefaults(Userid='Userid')/DetailSite"
+        },
+		
+		
+		 "ObjectSeriesHandling": {
+            "PrimaryKey": [
+                "Company",
+                "SeriesId"
+            ],
+
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ObjectSeriesHandling.svc/FaObjectSeriesSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ObjectSeriesHandling.svc/FaObjectSeriesSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ObjectSeriesHandling.svc/FaObjectSeriesSet"
+        },
+		
+		
+		 "ObjectPhysicalLocationsHandling": {
+            "PrimaryKey": [
+                "Company",
+                "SiteId",
+                "LocationId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ObjectPhysicalLocationsHandling.svc/FaObjectPhysicalLocSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ObjectPhysicalLocationsHandling.svc/FaObjectPhysicalLocSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ObjectPhysicalLocationsHandling.svc/FaObjectPhysicalLocSet"
+        },
+		
+		
+		 "ProjectGroupsHandling": {
+            "PrimaryKey": [
+                "Company",
+                "ProjectGroup"
+                
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ProjectGroupsHandling.svc/ProjectGroupSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ProjectGroupsHandling.svc/ProjectGroupSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ProjectGroupsHandling.svc/ProjectGroupSet"
+        },
+		
+		
+		 "AccountHandling": {
+            "PrimaryKey": [
+                "Company",
+                "Account"
+                
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/AccountHandling.svc/AccountSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/AccountHandling.svc/AccountSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/AccountHandling.svc/AccountSet"
+        },
+		
+		
+		 "AccountGroupsHandling": {
+            "PrimaryKey": [
+                "Company",
+                "AccntGroup"
+                
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/AccountGroupsHandling.svc/AccountGroupSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/AccountGroupsHandling.svc/AccountGroupSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/AccountGroupsHandling.svc/AccountGroupSet"
+        },
+		
+		
+		 "AccountTypesHandling": {
+            "PrimaryKey": [
+                "Company",
+                "AccntType"
+                
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/AccountTypesHandling.svc/AccountTypes",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/AccountTypesHandling.svc/AccountTypes",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/AccountTypesHandling.svc/AccountTypes"
+        },
+		
+		
+		 "AccountingPeriodsHandling": {
+            "PrimaryKey": [
+                "Company",
+                "AccountingYear"
+                
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/AccountingPeriodsHandling.svc/AccountingYearSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/AccountingPeriodsHandling.svc/AccountingYearSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/AccountingPeriodsHandling.svc/AccountingYearSet"
+        },
+		
+		
+		 "AcquisitionAccountsHandling": {
+            "PrimaryKey": [
+                "Company",
+                "Account"
+               
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/AcquisitionAccountsHandling.svc/AcquisitionAccountSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/AcquisitionAccountsHandling.svc/AcquisitionAccountSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/AcquisitionAccountsHandling.svc/AcquisitionAccountSet"
+        },
+		
+		
+		 "AuthorityClasses": {
+            "PrimaryKey": [
+                "Company",
+                "AuthClass"
+                
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/AuthorityClasses.svc/AuthorizeClassFinances",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/AuthorityClasses.svc/AuthorizeClassFinances",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/AuthorityClasses.svc/AuthorizeClassFinances"
+        },
+		
+		
+		 "AuthorityCombinations": {
+            "PrimaryKey": [
+                "AuthClass",
+                "Company",
+                "PostingCombinationId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/AuthorityCombinations.svc/AuthorizeCombFinances",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/AuthorityCombinations.svc/AuthorizeCombFinances",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/AuthorityCombinations.svc/AuthorizeCombFinances"
+        },
+		
+		
+		 "BankIdentifierCodesBicHandling": {
+            "PrimaryKey": [
+                "BicCode"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/BankIdentifierCodesBicHandling.svc/BankIdentifierCodeSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/BankIdentifierCodesBicHandling.svc/BankIdentifierCodeSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/BankIdentifierCodesBicHandling.svc/BankIdentifierCodeSet"
+        },
+		
+		
+		 "BankTransactionCodesHandling": {
+            "PrimaryKey": [
+                "Company",
+                "TransactionCodeId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/BankTransactionCodesHandling.svc/BankTransactionCodesSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/BankTransactionCodesHandling.svc/BankTransactionCodesSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/BankTransactionCodesHandling.svc/BankTransactionCodesSet"
+        },
+		
+		
+		 "CashAccountsHandling": {
+            "PrimaryKey": [
+                "Company",
+                "ShortName"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CashAccountsHandling.svc/CashAccountSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CashAccountsHandling.svc/CashAccountSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CashAccountsHandling.svc/CashAccountSet"
+        },
+		
+		
+		 "CheckCancellationReasonsHandling": {
+            "PrimaryKey": [
+                "Company",
+                "ChkCancellationCode"
+                
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CheckCancellationReasonsHandling.svc/CheckCancellationReasonSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CheckCancellationReasonsHandling.svc/CheckCancellationReasonSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CheckCancellationReasonsHandling.svc/CheckCancellationReasonSet"
+        },
+		
+		
+		 "CheckHandlingCodesHandling": {
+            "PrimaryKey": [
+                "Company",
+                "ChkHandlingCode"
+                
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CheckHandlingCodesHandling.svc/CheckHandlingCodeSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CheckHandlingCodesHandling.svc/CheckHandlingCodeSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CheckHandlingCodesHandling.svc/CheckHandlingCodeSet"
+        },
+		
+		
+		 "CheckTemplatesHandling": {
+            "PrimaryKey": [
+                "Company",
+                "TemplateId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CheckTemplatesHandling.svc/CheckTemplatesSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CheckTemplatesHandling.svc/CheckTemplatesSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CheckTemplatesHandling.svc/CheckTemplatesSet"
+        },
+		
+		
+		 "CodePartValuesHandling": {
+            "PrimaryKey": [
+                "Company"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CodePartValuesHandling.svc/CompanyFinanceSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CodePartValuesHandling.svc/CompanyFinanceSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CodePartValuesHandling.svc/CompanyFinanceSet"
+        },
+		
+		
+		 "CodeStringCompletionHandling": {
+            "PrimaryKey": [
+                "Company",
+                "CodePart",
+                "CodePartValue"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CodeStringCompletionHandling.svc/AccountingCodePartValueSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CodeStringCompletionHandling.svc/AccountingCodePartValueSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CodeStringCompletionHandling.svc/AccountingCodePartValueSet"
+        },
+		
+		
+		 "CombinationRulesHandling": {
+            "PrimaryKey": [
+                "Company",
+                "PostingCombinationId",
+                "ProcessCode"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CombinationRulesHandling.svc/AccountingCodestrCombSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CombinationRulesHandling.svc/AccountingCodestrCombSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CombinationRulesHandling.svc/AccountingCodestrCombSet"
+        },
+		
+		
+		 "CostRevElementsHanding": {
+            "PrimaryKey": [
+                "Company",
+                "ProjectCostElement"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CostRevElementsHanding.svc/ProjectCostElementSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CostRevElementsHanding.svc/ProjectCostElementSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CostRevElementsHanding.svc/ProjectCostElementSet"
+        },
+		
+		
+		"CostRevenueElementPerCodePartValueHandling": {
+            "PrimaryKey": [
+                "Company",
+                "Account",
+				"ValidFrom"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CostRevenueElementPerCodePartValueHandling.svc/CostElementToAccountSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CostRevenueElementPerCodePartValueHandling.svc/CostElementToAccountSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CostRevenueElementPerCodePartValueHandling.svc/CostElementToAccountSet"
+        },
+		
+				
+        "IsoCurrenciesHandling": {
+            "PrimaryKey": [
+                "CurrencyCode"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/IsoCurrenciesHandling.svc/IsoCurrencySet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/IsoCurrenciesHandling.svc/IsoCurrencySet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/IsoCurrenciesHandling.svc/IsoCurrencySet"
+        },
+		
+        
+		"CurrencyCodesHandling": {
+            "PrimaryKey": [
+                "Company",
+                "CurrencyCode"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/IsoCurrenciesHandling.svc/IsoCurrencySet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/IsoCurrenciesHandling.svc/IsoCurrencySet",
+            "ProjectionUrlUat": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/IsoCurrenciesHandling.svc/IsoCurrencySet"
+        },
+		
+  	    
+		"CurrencyRateTypesHandling": {
+            "PrimaryKey": [
+                "Company",
+                "CurrencyType"
+
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CurrencyRateTypesHandling.svc/CurrencyTypeSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CurrencyRateTypesHandling.svc/CurrencyTypeSet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CurrencyRateTypesHandling.svc/CurrencyTypeSet"
+        },
+		
+        
+		"CurrencyRevaluationBasicData": {
+            "PrimaryKey": [
+                "Company",
+		     "LedgerId" 
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CurrencyRevaluationBasicData.svc/RevalInfos",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CurrencyRevaluationBasicData.svc/RevalInfos", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CurrencyRevaluationBasicData.svc/RevalInfos"
+        },
+		
+       
+	    "CustomerGroupsHandling": {
+            "PrimaryKey": [
+                "Company",
+		     "GroupI",
+		     "PartyType"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CustomerGroupsHandling.svc/InvoicePartyTypeGroupSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CustomerGroupsHandling.svc/InvoicePartyTypeGroupSet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CustomerGroupsHandling.svc/InvoicePartyTypeGroupSet"
+        },
+		
+        
+		"CustomerInvoiceTypesHandling": {
+            "PrimaryKey": [
+                "Company",
+		     "PartyType",
+		     "TypeId"
+
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CustomerInvoiceTypesHandling.svc/InvoiceTypeSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CustomerInvoiceTypesHandling.svc/InvoiceTypeSet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CustomerInvoiceTypesHandling.svc/InvoiceTypeSet"
+        },
+		
+        
+		"DepreciationCalendarHandling": {
+            "PrimaryKey": [
+                "Company",
+		     "FaCalendarId" 
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/DepreciationCalendarHandling.svc/FaAccountingCalendarSet", 
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/DepreciationCalendarHandling.svc/FaAccountingCalendarSet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/DepreciationCalendarHandling.svc/FaAccountingCalendarSet"
+        },
+		
+        
+		"DepreciationMethodHandling": {
+            "PrimaryKey": [
+                "Company",
+		     "MethodId" 
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/DepreciationMethodHandling.svc/DepreciationMethodSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/DepreciationMethodHandling.svc/DepreciationMethodSet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/DepreciationMethodHandling.svc/DepreciationMethodSet"
+        },
+		
+        
+		"DocumentFooterHandling": {
+            "PrimaryKey": [
+                "Company"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/DocumentFooterHandling.svc/CompanySet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/DocumentFooterHandling.svc/CompanySet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/DocumentFooterHandling.svc/CompanySet"
+        },
+		
+       
+	   "FixedAssetsBooksHandling": {
+            "PrimaryKey": [
+                "BookId",
+		     "Company" 
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/FixedAssetsBooksHandling.svc/FaBookSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/FixedAssetsBooksHandling.svc/FaBookSet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/FixedAssetsBooksHandling.svc/FaBookSet"
+        },
+		
+       
+	   "IbanValidationInformationHandling": {
+            "PrimaryKey": [
+                "CountryCode"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/IbanValidationInformationHandling.svc/IbanValidationInfoSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/IbanValidationInformationHandling.svc/IbanValidationInfoSet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/IbanValidationInformationHandling.svc/IbanValidationInfoSet"
+        },
+		
+       
+	   "InvoicePaymentAuthorizersHandling": {
+            "PrimaryKey": [
+                "AuthId",
+		     "Company"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/InvoicePaymentAuthorizersHandling.svc/InvoiceAuthorizerSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/InvoicePaymentAuthorizersHandling.svc/InvoiceAuthorizerSet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/InvoicePaymentAuthorizersHandling.svc/InvoiceAuthorizerSet"
+        },
+
+       
+	   "InvoicePostingAuthorizersHandling": {
+            "PrimaryKey": [
+                "AuthorizerId",
+		     "Company" 
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/InvoicePostingAuthorizersHandling.svc/PostingAuthorizerSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/InvoicePostingAuthorizersHandling.svc/PostingAuthorizerSet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/InvoicePostingAuthorizersHandling.svc/PostingAuthorizerSet"
+        },
+		
+       
+	   "ObjectClassesHandling": {
+            "PrimaryKey": [
+                "Company",
+		     "ObjectClass" 
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ObjectClassesHandling.svc/FaObjectClassSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ObjectClassesHandling.svc/FaObjectClassSet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ObjectClassesHandling.svc/FaObjectClassSet"
+        },
+		
+       
+	   "ObjectGroupHandling ": {
+            "PrimaryKey": [
+                "Company",
+		     "ObjectGroupId" 
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ObjectGroupHandling.svc/FaObjectGroupSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ObjectGroupHandling.svc/FaObjectGroupSet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ObjectGroupHandling.svc/FaObjectGroupSet"
+        },
+		
+       
+	   "PaymentFormatsPerCompanyHandling": {
+            "PrimaryKey": [
+                "Company",
+		     "FormatId" 
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PaymentFormatsPerCompanyHandling.svc/PaymentFormatPerCompanySet", 
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PaymentFormatsPerCompanyHandling.svc/PaymentFormatPerCompanySet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PaymentFormatsPerCompanyHandling.svc/PaymentFormatPerCompanySet"
+        },
+		
+       
+	   "PaymentInstitutesHandling": {
+            "PrimaryKey": [
+                "Company",
+		     "InstituteId" 
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PaymentInstitutesHandling.svc/PaymentInstituteSet", 
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PaymentInstitutesHandling.svc/PaymentInstituteSet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PaymentInstitutesHandling.svc/PaymentInstituteSet"
+        },
+		
+       
+	   "PaymentMethodsHandling": {
+            "PrimaryKey": [
+                "Company",
+		     "WayId" 
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PaymentMethodsHandling.svc/PaymentWaySet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PaymentMethodsHandling.svc/PaymentWaySet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PaymentMethodsHandling.svc/PaymentWaySet"
+        },
+		
+       
+	   "PaymentTermHandling": {
+            "PrimaryKey": [
+                "Company",
+		     "PayTermId" 
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PaymentTermHandling.svc/PaymentTermSet", 
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PaymentTermHandling.svc/PaymentTermSet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PaymentTermHandling.svc/PaymentTermSet"
+        },
+		
+       
+	   "PostingControlHandling": {
+            "PrimaryKey": [
+                "CodePart",
+		     "Company",
+		     "PcValidFrom" 
+
+            ], 
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PostingControlHandling.svc/PostingCtrlSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PostingControlHandling.svc/PostingCtrlSet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PostingControlHandling.svc/PostingCtrlSet"
+        },
+		
+       
+	   "ReminderTemplatesHandling": {
+            "PrimaryKey": [
+                "Company",
+		     "CurrencyType" 
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ReminderTemplatesHandling.svc/ReminderTemplateSet", 
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ReminderTemplatesHandling.svc/ReminderTemplateSet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ReminderTemplatesHandling.svc/ReminderTemplateSet"
+        },
+		
+       
+	   "RevaluationAccountsHandling": {
+            "PrimaryKey": [
+                "Company",
+		     "LedgerId" 
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/RevaluationAccountsHandling.svc/CurrencyRevaluationLedgers", 
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/RevaluationAccountsHandling.svc/CurrencyRevaluationLedgers", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/RevaluationAccountsHandling.svc/CurrencyRevaluationLedgers"
+        },
+		
+       
+	   "RevaluationPostingCodeParts": {
+            "PrimaryKey": [
+                "Company",
+		     "LedgerId" 
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/RevaluationPostingCodeParts.svc/RevaluationInformationSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/RevaluationPostingCodeParts.svc/RevaluationInformationSet", 
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/RevaluationPostingCodeParts.svc/RevaluationInformationSet"
+        },
+		
+		
+        "SupplierGroupsHandling": {
+            "PrimaryKey": [
+                "Company",
+                "PartyType",
+                "GroupId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/SupplierGroupsHandling.svc/InvoicePartyTypeGroupSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/SupplierGroupsHandling.svc/InvoicePartyTypeGroupSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/SupplierGroupsHandling.svc/InvoicePartyTypeGroupSet"
+        },
+		
+        
+		"TaxBooksHandling": {
+            "PrimaryKey": [
+                "Company",
+                "TaxBookId"
+               
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/TaxBooksHandling.svc/TaxBookSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/TaxBooksHandling.svc/TaxBookSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/TaxBooksHandling.svc/TaxBookSet"
+        },
+		
+        
+		"TaxCodesHandling": {
+            "PrimaryKey": [
+                "Company",
+                "FeeCode"
+                
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/TaxCodesHandling.svc/TaxCodeSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/TaxCodesHandling.svc/TaxCodeSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/TaxCodesHandling.svc/TaxCodeSet"
+        },
+		
+        
+		"TaxGroupHandling": {
+            "PrimaryKey": [
+                "Company",
+                "GroupId"
+               
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/TaxGroupHandling.svc/TaxCodeGroupSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/TaxGroupHandling.svc/TaxCodeGroupSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/TaxGroupHandling.svc/TaxCodeGroupSet"
+        },
+		
+        
+		"TaxIdTypesHandling": {
+            "PrimaryKey": [
+                "TaxIdType"   
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/TaxIdTypesHandling.svc/TaxIdTypeSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/TaxIdTypesHandling.svc/TaxIdTypeSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/TaxIdTypesHandling.svc/TaxIdTypeSet"
+        },
+		
+        
+		"TaxLedgerParametersHandling": {
+            "PrimaryKey": [
+                "Company"   
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/TaxLedgerParametersHandling.svc/TaxLedgerParameterSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/TaxLedgerParametersHandling.svc/TaxLedgerParameterSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/TaxLedgerParametersHandling.svc/TaxLedgerParameterSet"
+        },
+		
+        
+		"TaxLiabilityDateControlHandling": {
+            "PrimaryKey": [
+                "Company" 
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/TaxLiabilityDateControlHandling.svc/TaxLiabilityDateCtrlSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/TaxLiabilityDateControlHandling.svc/TaxLiabilityDateCtrlSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/TaxLiabilityDateControlHandling.svc/TaxLiabilityDateCtrlSet"
+        },
+		
+        
+		"TaxTemplateColumnControlHandling": {
+            "PrimaryKey": [
+                "Company",
+                "TemplateId"
+                
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/TaxTemplateColumnControlHandling.svc/TaxTemplColCtrlSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/TaxTemplateColumnControlHandling.svc/TaxTemplColCtrlSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/TaxTemplateColumnControlHandling.svc/TaxTemplColCtrlSet"
+        },
+		
+        
+		"TaxTemplateFieldControlHandling": {
+            "PrimaryKey": [
+                "Company",
+                "TemplateId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/TaxTemplateFieldControlHandling.svc/TaxTempFieldCtrlSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/TaxTemplateFieldControlHandling.svc/TaxTempFieldCtrlSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/TaxTemplateFieldControlHandling.svc/TaxTempFieldCtrlSet"
+        },
+        
+		
+		"TaxTemplatesHandling": {
+            "PrimaryKey": [
+                "TemplateId"
+                   
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/TaxTemplatesHandling.svc/TaxTemplateBasicSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/TaxTemplatesHandling.svc/TaxTemplateBasicSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/TaxTemplatesHandling.svc/TaxTemplateBasicSet"
+        },
+        
+		"TransactionReasonsHandling": {
+            "PrimaryKey": [
+                "Company",
+                "TransactionReason"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/TransactionReasonsHandling.svc/TransactionReasonSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/TransactionReasonsHandling.svc/TransactionReasonSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/TransactionReasonsHandling.svc/TransactionReasonSet"
+        },
+		
+        
+		"UserGroupsHandling": {
+            "PrimaryKey": [
+                "Company",
+                "UserGroup"  
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/UserGroupsHandling.svc/UserGroupFinanceSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/UserGroupsHandling.svc/UserGroupFinanceSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/UserGroupsHandling.svc/UserGroupFinanceSet"
+        },
+		
+        
+		"UserGroupPerPeriodHandling": {
+            "PrimaryKey": [
+                "AccountingYear",
+                "AccountingPeriod",
+                "Company"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/UserGroupPerPeriodHandling.svc/AccountingPeriodSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/UserGroupPerPeriodHandling.svc/AccountingPeriodSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/UserGroupPerPeriodHandling.svc/AccountingPeriodSet"
+        },
+		
+        
+		"UsersPerUserGroupHandling": {
+            "PrimaryKey": [
+                "Company",
+                "UserGroup"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/UsersPerUserGroupHandling.svc/UserGroupFinanceSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/UsersPerUserGroupHandling.svc/UserGroupFinanceSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/UsersPerUserGroupHandling.svc/UserGroupFinanceSet"
+        },
+		
+        
+		"UsersPerAuthorityClass": {
+            "PrimaryKey": [
+                "Company",
+                "Userid"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/UsersPerAuthorityClass.svc/GenLedUsers",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/UsersPerAuthorityClass.svc/GenLedUsers",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/UsersPerAuthorityClass.svc/GenLedUsers"
+        },
+		
+        
+		"UserRelatedVoucherData": {
+            "PrimaryKey": [
+                "Company",
+                "VoucherType"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/UserRelatedVoucherData.svc/VoucherTypeSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/UserRelatedVoucherData.svc/VoucherTypeSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/UserRelatedVoucherData.svc/VoucherTypeSet"
+        },
+		
+        
+		"VoucherTypeHandling": {
+            "PrimaryKey": [
+                "Company",
+                "VoucherType"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/VoucherTypeHandling.svc/VoucherTypes",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/VoucherTypeHandling.svc/VoucherTypes",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/VoucherTypeHandling.svc/VoucherTypes"
+        },
+		
+        
+		"PseudoCodesHandling": {
+            "PrimaryKey": [
+                "Company",
+                "PseudoCode",
+                "UserName"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PseudoCodesHandling.svc/PseudoCodesSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PseudoCodesHandling.svc/PseudoCodesSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PseudoCodesHandling.svc/PseudoCodesSet"
+        },
+		
+       
+	   "OrganizationLevelsHandling": {
+            "PrimaryKey": [
+                "OrgTermId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/OrganizationLevelsHandling.svc/OrganizationTerms",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/OrganizationLevelsHandling.svc/OrganizationTerms",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/OrganizationLevelsHandling.svc/OrganizationTerms"
+        },
+       
+	   
+	   "PropertyFieldDefinitionHandling": {
+            "PrimaryKey": [
+                "PropertyCode"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PropertyFieldDefinitionHandling.svc/PropertyRules",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PropertyFieldDefinitionHandling.svc/PropertyRules",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PropertyFieldDefinitionHandling.svc/PropertyRules"
+        },
+ 
+       
+	   "EmploymentTypesHandling": {
+            "PrimaryKey": [
+                "EmploymentId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/EmploymentTypesHandling.svc/EmploymentTypes",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/EmploymentTypesHandling.svc/EmploymentTypes",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/EmploymentTypesHandling.svc/EmploymentTypes"
+        },
+		
+        
+		"AccessAttributeHandling": {
+            "PrimaryKey": [
+                "ModuleName"  
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/AccessAttributeHandling.svc/ModuleNames",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/AccessAttributeHandling.svc/ModuleNames",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/AccessAttributeHandling.svc/ModuleNames"
+        },
+		
+        
+		"AccessRoleHandling": {
+            "PrimaryKey": [
+                "AccessRoleId"              
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/AccessRoleHandling.svc/AccessRoles",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/AccessRoleHandling.svc/AccessRoles",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/AccessRoleHandling.svc/AccessRoles"
+        },
+		
+        
+		"CompanyDetailsHandling": {
+            "PrimaryKey": [
+                "CompanyId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CompanyDetailsHandling.svc/CompanyDetailsInfo",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CompanyDetailsHandling.svc/CompanyDetailsInfo",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CompanyDetailsHandling.svc/CompanyDetailsInfo"
+        },
+		
+        
+		"CycleSchedulesHandling": {
+            "PrimaryKey": [
+                "CompanyId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CycleSchedulesHandling.svc/DaySchedTypeCycles",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CycleSchedulesHandling.svc/DaySchedTypeCycles",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CycleSchedulesHandling.svc/DaySchedTypeCycles"
+        },
+		
+		
+		"SetupWorkTimeCalendars": {
+            "PrimaryKey": [
+                "DayType"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/SetupWorkTimeCalendar.svc/WorkTimeDayTypes",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/SetupWorkTimeCalendar.svc/WorkTimeDayTypes",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/SetupWorkTimeCalendar.svc/WorkTimeDayTypes"
+        },
+		
+		
+		"EmployeeCategoryHandling": {
+            "PrimaryKey": [
+                "CompanyId",
+				"EmpCatName"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/EmployeeCategoryHandling.svc/CompanyEmpCategories",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/EmployeeCategoryHandling.svc/CompanyEmpCategories",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/EmployeeCategoryHandling.svc/CompanyEmpCategories"
+        },
+		
+		
+		"EmployeeFreeFieldDefinitionHandling": {
+            "PrimaryKey": [
+                "PropertyCode"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/EmployeeFreeFieldDefinitionHandling.svc/PropertyRuleDefinitions",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/EmployeeFreeFieldDefinitionHandling.svc/PropertyRuleDefinitions",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/EmployeeFreeFieldDefinitionHandling.svc/PropertyRuleDefinitions"
+        },
+		
+		
+		"EmployeePaymentMethodsHandling": {
+            "PrimaryKey": [
+                "CompanyId",
+				"MethodId",
+				"MethodNo"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/EmployeePaymentMethodsHandling.svc/EmpPaymentMethodViews",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/EmployeePaymentMethodsHandling.svc/EmpPaymentMethodViews",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/EmployeePaymentMethodsHandling.svc/EmpPaymentMethodViews"
+        },
+		
+		
+		"EmployeeSchedulesAndRulesHandling": {
+            "PrimaryKey": [
+                "CompanyId",
+				"EmpNo",
+				"ValidFrom"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/EmployeeSchedulesAndRulesHandling.svc/WorkSchedAssigns",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/EmployeeSchedulesAndRulesHandling.svc/WorkSchedAssigns",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/EmployeeSchedulesAndRulesHandling.svc/WorkSchedAssigns"
+        },
+		
+		
+		"EmployeeStatusHandling": {
+            "PrimaryKey": [
+                "CompanyId",
+				"SeqNo"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/EmployeeStatusHandling.svc/EmployeeStatuses",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/EmployeeStatusHandling.svc/EmployeeStatuses",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/EmployeeStatusHandling.svc/EmployeeStatuses"
+        },
+		
+		
+		"ExpenseRuleHandling": {
+            "PrimaryKey": [
+                "ExpenseRule"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ExpenseRuleHandling.svc/ExpenseRules",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ExpenseRuleHandling.svc/ExpenseRules",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ExpenseRuleHandling.svc/ExpenseRules"
+        },
+		
+		
+		"WorkHourFlexDayRuleHandling": {
+            "PrimaryKey": [
+                "CompanyId",
+				"WageClass",
+				"FlexDayType"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/WorkHourFlexDayRuleHandling.svc/WorkSchedFlexRules",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/WorkHourFlexDayRuleHandling.svc/WorkSchedFlexRules",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/WorkHourFlexDayRuleHandling.svc/WorkSchedFlexRules"
+        },
+		
+		
+		"GenderTypeHandling": {
+            "PrimaryKey": [
+                "GenderId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/GenderTypeHandling.svc/Genders",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/GenderTypeHandling.svc/Genders",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/GenderTypeHandling.svc/Genders"
+        },
+		
+		
+		"Iso20022ConfigurationHandling": {
+            "PrimaryKey": [
+                "ConfigurationId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/Iso20022ConfigurationHandling.svc/EmpPaymentMethodDetails",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/Iso20022ConfigurationHandling.svc/EmpPaymentMethodDetails",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/Iso20022ConfigurationHandling.svc/EmpPaymentMethodDetails"
+        },
+		
+		
+		"JobsHandling": {
+            "PrimaryKey": [
+                "CompanyId",
+				"JobId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/JobsHandling.svc/CompanyJobs",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/JobsHandling.svc/CompanyJobs",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/JobsHandling.svc/CompanyJobs"
+        },
+		
+		
+		"JobGradesHandling": {
+            "PrimaryKey": [
+                "CompanyId",
+				"JobGradeNo"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/JobGradesHandling.svc/Grades",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/JobGradesHandling.svc/Grades",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/JobGradesHandling.svc/Grades"
+        },
+		
+		
+		"MileageLimitsHandling": {
+            "PrimaryKey": [
+                "MileageRule"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/MileageLimitsHandling.svc/MileageRules",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/MileageLimitsHandling.svc/MileageRules",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/MileageLimitsHandling.svc/MileageRules"
+        },
+		
+		
+		"BankDetailsHandling": {
+            "PrimaryKey": [
+                "BankId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/BankDetailsHandling.svc/BankDetailsSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/BankDetailsHandling.svc/BankDetailsSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/BankDetailsHandling.svc/BankDetailsSet"
+        },
+		
+		
+		"IbanValidationInfoHandling": {
+            "PrimaryKey": [
+                "CountryCode"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/IbanValidationInfoHandling.svc/IbanValidationInfoHcms",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/IbanValidationInfoHandling.svc/IbanValidationInfoHcms",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/IbanValidationInfoHandling.svc/IbanValidationInfoHcms"
+        },
+		
+		
+		"PersonHandling": {
+            "PrimaryKey": [
+                "PersonId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PersonHandling.svc/PersonInfoSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PersonHandling.svc/PersonInfoSet",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PersonHandling.svc/PersonInfoSet"
+        },
+		
+		
+		"PositionAccessSetupHandling": {
+            "PrimaryKey": [
+                "BusinessUnitId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PositionAccessSetupHandling.svc/QryBusinessUnits",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PositionAccessSetupHandling.svc/QryBusinessUnits",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PositionAccessSetupHandling.svc/QryBusinessUnits"
+        },
+		
+		
+		"PositionsHandling": {
+            "PrimaryKey": [
+                "CompanyId",
+				"PosCode"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PositionsHandling.svc/CompanyPositionStrs",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PositionsHandling.svc/CompanyPositionStrs",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PositionsHandling.svc/CompanyPositionStrs"
+        },
+		
+		
+		"ReasonsForLeavingHandling": {
+            "PrimaryKey": [
+                "LeavingCauseId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ReasonsForLeavingHandling.svc/LeavingCauses",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ReasonsForLeavingHandling.svc/LeavingCauses",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ReasonsForLeavingHandling.svc/LeavingCauses"
+        },
+		
+		
+		"RejectionReasonHandling": {
+            "PrimaryKey": [
+                "ReasonId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/RejectionReasonHandling.svc/RequestRejectionReasons",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/RejectionReasonHandling.svc/RequestRejectionReasons",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/RejectionReasonHandling.svc/RequestRejectionReasons"
+        },
+		
+		
+		"RoundingRuleDefinitionHandling": {
+            "PrimaryKey": [
+                "CompanyId",
+				"RoundingRule"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/RoundingRuleDefinitionHandling.svc/RoundingRuleDefinitions",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/RoundingRuleDefinitionHandling.svc/RoundingRuleDefinitions",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/RoundingRuleDefinitionHandling.svc/RoundingRuleDefinitions"
+        },
+		
+		
+		"ShiftHandling": {
+            "PrimaryKey": [
+                "CompanyId",
+				"ShiftId"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ShiftHandling.svc/ShiftsInfo",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ShiftHandling.svc/ShiftsInfo",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ShiftHandling.svc/ShiftsInfo"
+        },
+		
+		
+		"WageClassesHandling": {
+            "PrimaryKey": [
+                "CompanyId",
+				"WageClass"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/WageClassesHandling.svc/WageClasses",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/WageClassesHandling.svc/WageClasses",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/WageClassesHandling.svc/WageClasses"
+        },
+		
+		
+		"WageCodesHandling": {
+            "PrimaryKey": [
+                "CompanyId",
+				"WageClass",
+				"WageCode"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/WageCodesHandling.svc/WageCodes",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/WageCodesHandling.svc/WageCodes",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/WageCodesHandling.svc/WageCodes"
+        },
+		
+		
+		"WorkLocationHandling": {
+            "PrimaryKey": [
+                "CompanyOffice"
+            ],
+			"ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/WorkLocationHandling.svc/WorkLocations",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/WorkLocationHandling.svc/WorkLocations",
+            "ProjectionUrlUat": "https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/WorkLocationHandling.svc/WorkLocations"
+        },
+		
+		
+		"ProjectForecastHandling": {
+            "PrimaryKey": [
+                "ForecastId"
+            ],
+		    "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ProjectForecastHandling.svc/ProjectForecastSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ProjectForecastHandling.svc/ProjectForecastSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ProjectForecastHandling.svc/ProjectForecastSet"
+        },
+		
+		
+        "CostElementCodePartDemandHandling": {
+            "PrimaryKey": [
+                "Company"
+            ], 
+		    "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CostElementCodePartDemandHandling.svc/CompanyFinanceSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CostElementCodePartDemandHandling.svc/CompanyFinanceSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CostElementCodePartDemandHandling.svc/CompanyFinanceSet"
+        },
+		
+		
+        "ManualActivityConnectionListHandling": {
+            "PrimaryKey": [
+                "ProjLuName"
+            ],
+		    "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ManualActivityConnectionListHandling.svc/ManualActivityConnections",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ManualActivityConnectionListHandling.svc/ManualActivityConnections",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ManualActivityConnectionListHandling.svc/ManualActivityConnections"
+        },
+		
+		
+        "ProjectRoleBasicListHandling": {
+            "PrimaryKey": [
+                "Company",
+				"RoleId"
+            ],
+		    "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ProjectRoleBasicListHandling.svc/ProjectRoleBasics",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ProjectRoleBasicListHandling.svc/ProjectRoleBasics",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ProjectRoleBasicListHandling.svc/ProjectRoleBasics"
+        },
+		
+		
+       "OverheadCriteriaHandling": {
+            "PrimaryKey": [
+                "Company",
+				"Criteria"
+            ],
+		    "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/OverheadCriteriaHandling.svc/OverheadCriteriaSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/OverheadCriteriaHandling.svc/OverheadCriteriaSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/OverheadCriteriaHandling.svc/OverheadCriteriaSet"
+        },
+		
+		
+        "OverheadDefinitionsHandling": {
+            "PrimaryKey": [
+                "Company",
+				"OverheadId"
+            ],
+		    "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/OverheadDefinitionsHandling.svc/OverheadDefinitionSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/OverheadDefinitionsHandling.svc/OverheadDefinitionSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/OverheadDefinitionsHandling.svc/OverheadDefinitionSet"
+        },
+		
+		
+       "OverheadRulesHandling": {
+            "PrimaryKey": [
+                "Company"
+            ],
+		    "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/OverheadRulesHandling.svc/CompanyFinanceSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/OverheadRulesHandling.svc/CompanyFinanceSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/OverheadRulesHandling.svc/CompanyFinanceSet"
+        },
+		
+		
+        "ProjectBudgetControlBasicDataHandling": {
+            "PrimaryKey": [
+                "Company"
+            ],
+		    "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ProjectBudgetControlBasicDataHandling.svc/BudgetControlSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ProjectBudgetControlBasicDataHandling.svc/BudgetControlSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ProjectBudgetControlBasicDataHandling.svc/BudgetControlSet"
+        },
+		
+		
+       "ProjectCategory1GlobalHandling": {
+            "PrimaryKey": [
+                "Category1Id"
+            ],
+		    "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ProjectCategory1GlobalHandling.svc/ProjectCategory1Globals",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ProjectCategory1GlobalHandling.svc/ProjectCategory1Globals",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ProjectCategory1GlobalHandling.svc/ProjectCategory1Globals"
+        },
+		
+		
+        "ProjectCategory1ListHandling": {
+            "PrimaryKey": [
+                "Category1Id",
+				"Company"
+
+            ],
+		    "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ProjectCategory1ListHandling.svc/ProjectCategory1Set",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ProjectCategory1ListHandling.svc/ProjectCategory1Set",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ProjectCategory1ListHandling.svc/ProjectCategory1Set"
+        },
+		
+		
+       "ProjectCategory2GlobalHandling": {
+            "PrimaryKey": [
+               "Category2Id"
+            ],
+		    "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ProjectCategory2GlobalHandling.svc/ProjectCategory2Globals",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ProjectCategory2GlobalHandling.svc/ProjectCategory2Globals",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ProjectCategory2GlobalHandling.svc/ProjectCategory2Globals"
+        },
+		
+		
+        "ProjectCategory2OverviewHandling": {
+            "PrimaryKey": [
+                "Category2Id",
+				"Company"
+            ],
+		    "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ProjectCategory2OverviewHandling.svc/ProjectCategory2Set",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ProjectCategory2OverviewHandling.svc/ProjectCategory2Set",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ProjectCategory2OverviewHandling.svc/ProjectCategory2Set"
+        },
+		
+		
+       "ProjectProgramGlobalHandling": {
+            "PrimaryKey": [
+                "ProgramId"
+            ],
+		    "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ProjectProgramGlobalHandling.svc/ProjectProgramGlobals",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ProjectProgramGlobalHandling.svc/ProjectProgramGlobals",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ProjectProgramGlobalHandling.svc/ProjectProgramGlobals"
+        },
+		
+		
+        "ProjectProgramsHandling": {
+            "PrimaryKey": [
+                "Company",
+				"ProgramId"
+            ],
+		    "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ProjectProgramsHandling.svc/ProjectPrograms",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ProjectProgramsHandling.svc/ProjectPrograms",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ProjectProgramsHandling.svc/ProjectPrograms"
+        },
+		
+		
+       "ProjectTeamHandling": {
+            "PrimaryKey": [
+                "TeamId"
+            ],
+		    "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ProjectTeamHandling.svc/Teams",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ProjectTeamHandling.svc/Teams",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ProjectTeamHandling.svc/Teams"
+        },
+		
+		
+       "ProjectReportCostBasicDataHandling": {
+            "PrimaryKey": [
+                "Company",
+				"ReportCostCode",
+				"ValidFrom"
+            ],
+            "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ProjectReportCodeBasicDataHandling.svc/ReportCosts",
+		    "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ProjectReportCodeBasicDataHandling.svc/ReportCosts",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ProjectReportCodeBasicDataHandling.svc/ReportCosts"
+        },
+		
+		
+       "ProjectReportCodeBasicDataHandling": {
+            "PrimaryKey": [
+                "Company",
+				"ReportCost"
+            ],
+            "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ProjectReportCodeBasicDataHandling.svc/AvailableReportCosts",
+		    "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ProjectReportCodeBasicDataHandling.svc/AvailableReportCosts",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ProjectReportCodeBasicDataHandling.svc/AvailableReportCosts"
+        },
+		
+		
+       "ResourceCriteriaTemplateHandling": {
+            "PrimaryKey": [
+                "TemplateId"
+            ],
+            "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ResourceCriteriaTemplateHandling.svc/ResourceCriteriaHeaderSet",
+		    "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ResourceCriteriaTemplateHandling.svc/ResourceCriteriaHeaderSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ResourceCriteriaTemplateHandling.svc/ResourceCriteriaHeaderSet"
+        },
+		
+		
+       "SalesChargeTypeHandling": {
+            "PrimaryKey": [
+                "ChargeType",
+				"Contract"
+            ],
+            "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/SalesChargeTypeHandling.svc/SalesChargeTypeSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/SalesChargeTypeHandling.svc/SalesChargeTypeSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/SalesChargeTypeHandling.svc/SalesChargeTypeSet"
+        },
+		
+		
+        "SalesContractAddressTypeHandling": {
+            "PrimaryKey": [
+                "AddressType"
+            ],
+            "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/SalesContractAddressTypeHandling.svc/ConAddressTypeSet",
+            "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/SalesContractAddressTypeHandling.svc/ConAddressTypeSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/SalesContractAddressTypeHandling.svc/ConAddressTypeSet"
+        },
+		
+		
+       "Category1Handling": {
+            "PrimaryKey": [
+                "Category1Name"
+            ],
+            "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/Category1Handling.svc/ContractCategory1Set",
+		    "ProjectionUrlAcc": "https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/Category1Handling.svc/ContractCategory1Set",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/Category1Handling.svc/ContractCategory1Set"
+        },
+		
+		
+		"Category2Handling": {
+            "PrimaryKey": [
+                "Category2Name"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/Category2Handling.svc/ContractCategory2Set",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/Category2Handling.svc/ContractCategory2Set",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/Category2Handling.svc/ContractCategory2Set"
+	},
+	
+
+	   "SalesContractItemTypesHandling": {
+            "PrimaryKey": [
+                "ItemType"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/SalesContractItemTypesHandling.svc/ContractItemTypeSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/SalesContractItemTypesHandling.svc/ContractItemTypeSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/SalesContractItemTypesHandling.svc/ContractItemTypeSet"
+        },
+		
+	
+	   "SalesDiscountTypesHandling": {
+            "PrimaryKey": [
+                "DiscountType"
+                
+            ],
+            "ProjectionUrlCfg": "https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/SalesDiscountTypesHandling.svc/SalesDiscountTypes",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/SalesDiscountTypesHandling.svc/SalesDiscountTypes",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/SalesDiscountTypesHandling.svc/SalesDiscountTypes"
+        },
+		
+
+	   "SalesGroupsHandling": {
+            "PrimaryKey": [
+                "CatalogGroup"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/SalesGroupsHandling.svc/SalesGroups",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/SalesGroupsHandling.svc/SalesGroups",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/SalesGroupsHandling.svc/SalesGroups"
+        },
+		
+
+	  "SalesPriceGroupsHandling": {
+            "PrimaryKey": [
+                "SalesPriceGroupId"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/SalesPriceGroupsHandling.svc/SalesPriceGroups",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/SalesPriceGroupsHandling.svc/SalesPriceGroups",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/SalesPriceGroupsHandling.svc/SalesPriceGroups"
+        },
+		
+
+	  "SalesWinAndLoseReasonsHandling": {
+            "PrimaryKey": [
+                "ReasonId"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/SalesWinAndLoseReasonsHandling.svc/SalesWinAndLoseReasons",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/SalesWinAndLoseReasonsHandling.svc/SalesWinAndLoseReasons",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/SalesWinAndLoseReasonsHandling.svc/SalesWinAndLoseReasons"
+        },
+		
+
+	"SalesContractNumberHandling": {
+            "PrimaryKey": [
+                "SeqNo"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/SalesContractNumberHandling.svc/SalesContractNumberSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/SalesContractNumberHandling.svc/SalesContractNumberSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/SalesContractNumberHandling.svc/SalesContractNumberSet"
+        },
+		
+
+	"StandardCostsHandling": {
+            "PrimaryKey": [
+                "SeqNo"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/StandardCostsHandling.svc/CompanyPersCosts",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/StandardCostsHandling.svc/CompanyPersCosts",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/StandardCostsHandling.svc/CompanyPersCosts"
+        },
+
+	
+	"TeamMembersHandling": {
+            "PrimaryKey": [
+                "Company"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/TeamMembersHandling.svc/TeamMembers",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/TeamMembersHandling.svc/TeamMembers",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/TeamMembersHandling.svc/TeamMembers"
+        },
+		
+
+	"PurchaseGroupsHandling": {
+            "PrimaryKey": [
+                "StatGrp"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PurchaseGroupsHandling.svc/PurchasePartGroups",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PurchaseGroupsHandling.svc/PurchasePartGroups",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PurchaseGroupsHandling.svc/PurchasePartGroups"
+        },
+
+	
+	"CommodityGroupsHandling": {
+            "PrimaryKey": [
+                "CommodityCode"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CommodityGroupsHandling.svc/CommodityGroups",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CommodityGroupsHandling.svc/CommodityGroups",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CommodityGroupsHandling.svc/CommodityGroups"
+        },
+		
+
+	
+	
+	"BuyersHandling": {
+            "PrimaryKey": [
+                "BuyerCode"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/BuyersHandling.svc/PurchaseBuyers",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/BuyersHandling.svc/PurchaseBuyerss",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/BuyersHandling.svc/PurchaseBuyers"
+        },
+    
+	
+	"CancellationReasonsHandling": {
+            "PrimaryKey": [
+                "CancelReason"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CancellationReasonsHandling.svc/OrderCancelReasons",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CancellationReasonsHandling.svc/OrderCancelReasons",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CancellationReasonsHandling.svc/OrderCancelReasons"
+        },
+		
+
+	"CoordinatorGroupsHandling": {
+            "PrimaryKey": [
+                "AuthorizeGroup"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CoordinatorGroupsHandling.svc/OrderCoordinatorGroups",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CoordinatorGroupsHandling.svc/OrderCoordinatorGroups",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CoordinatorGroupsHandling.svc/OrderCoordinatorGroups"
+        },
+		
+
+	"OrderCoordinatorHandling": {
+            "PrimaryKey": [
+                "AuthorizeCode"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/OrderCoordinatorHandling.svc/OrderCoordinators",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/OrderCoordinatorHandling.svc/OrderCoordinators",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/OrderCoordinatorHandling.svc/OrderCoordinators"
+        },
+		
+
+	"CustomerOrderTypesHandling": {
+            "PrimaryKey": [
+                "OrderId"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CustomerOrderTypesHandling.svc/CustomerOrderTypes",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CustomerOrderTypesHandling.svc/CustomerOrderTypes",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CustomerOrderTypesHandling.svc/CustomerOrderTypes"
+        },
+		
+
+	"CustomerStatisticGroupsHandling": {
+            "PrimaryKey": [
+                "CustGrp"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CustomerStatisticGroupsHandling.svc/CustomerGroups",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CustomerStatisticGroupsHandling.svc/CustomerGroups",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CustomerStatisticGroupsHandling.svc/CustomerGroups"
+        },
+		
+
+	"CustomsStatisticsNumberHandling": {
+            "PrimaryKey": [
+                "CustomsStatNo"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CustomsStatisticsNumberHandling.svc/CustomsStatisticsNumbers",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CustomsStatisticsNumberHandling.svc/CustomsStatisticsNumbers",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CustomsStatisticsNumberHandling.svc/CustomsStatisticsNumbers"
+        },
+		
+
+	"DeliveryTermsHandling": {
+            "PrimaryKey": [
+                "DeliveryTerms"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/DeliveryTermsHandling.svc/OrderDeliveryTerms",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/DeliveryTermsHandling.svc/OrderDeliveryTerms",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/DeliveryTermsHandling.svc/OrderDeliveryTerms"
+        },
+		
+
+	"InventoryLocationGroupsHandling": {
+            "PrimaryKey": [
+                "LocationGroup"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/InventoryLocationGroupsHandling.svc/InventoryLocationGroups",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/InventoryLocationGroupsHandling.svc/InventoryLocationGroups",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/InventoryLocationGroupsHandling.svc/InventoryLocationGroups"
+        },
+		
+
+	
+		
+
+	"InventoryLocationsHandling": {
+            "PrimaryKey": [
+                "BayId"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/InventoryLocationsHandling.svc/WarehouseBayBinSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/InventoryLocationsHandling.svc/WarehouseBayBinSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/InventoryLocationsHandling.svc/WarehouseBayBinSet"
+        },
+		
+
+	"PartInspectionCodesHandling": {
+            "PrimaryKey": [
+                "InspectionCode"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PartInspectionCodesHandling.svc/InspectionRules",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PartInspectionCodesHandling.svc/InspectionRules",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PartInspectionCodesHandling.svc/InspectionRules"
+        },
+		
+
+	"PurchaseChargeGroupHandling": {
+            "PrimaryKey": [
+                "ChargeGroup"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PurchaseChargeGroupHandling.svc/PurchaseChargeGroups",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PurchaseChargeGroupHandling.svc/PurchaseChargeGroups",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PurchaseChargeGroupHandling.svc/PurchaseChargeGroups"
+        },
+		
+
+	"PurchaseChargeTypeHandling": {
+            "PrimaryKey": [
+                "ChargeType"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PurchaseChargeTypeHandling.svc/PurchaseChargeTypeSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PurchaseChargeTypeHandling.svc/PurchaseChargeTypeSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PurchaseChargeTypeHandling.svc/PurchaseChargeTypeSet"
+        },
+		
+
+	"PurchaseMilestoneStagePaymentTemplatesHandling": {
+            "PrimaryKey": [
+                "TemplateId"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PurchaseMilestoneStagePaymentTemplatesHandling.svc/PurchaseMilestoneStagePaymentTemplates",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PurchaseMilestoneStagePaymentTemplatesHandling.svc/PurchaseMilestoneStagePaymentTemplates",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PurchaseMilestoneStagePaymentTemplatesHandling.svc/PurchaseMilestoneStagePaymentTemplates"
+        },
+		
+
+	"PurchaseOrderAuthorizationRuleHandling": {
+            "PrimaryKey": [
+                "ApprovalRule"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PurchaseOrderAuthorizationRuleHandling.svc/PurchaseOrderAuthorizationRuleSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PurchaseOrderAuthorizationRuleHandling.svc/PurchaseOrderAuthorizationRuleSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PurchaseOrderAuthorizationRuleHandling.svc/PurchaseOrderAuthorizationRuleSet"
+        },
+		
+	
+	"RequisitionersHandling": {
+            "PrimaryKey": [
+                "RequisitionerCode"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/RequisitionersHandling.svc/Requisitioners",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/RequisitionersHandling.svc/Requisitioners",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/RequisitionersHandling.svc/Requisitioners"
+        },
+		
+
+	"ShipViaCodesHandling": {
+            "PrimaryKey": [
+                "ShipViaCode"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ShipViaCodesHandling.svc/MpccomShipVias",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ShipViaCodesHandling.svc/MpccomShipVias",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ShipViaCodesHandling.svc/MpccomShipVias"
+        },
+		
+
+	"SupplierStatisticGroupsHandling": {
+            "PrimaryKey": [
+                "SuppGrp"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/SupplierStatisticGroupsHandling.svc/SupplierGroups",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/SupplierStatisticGroupsHandling.svc/SupplierGroups",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/SupplierStatisticGroupsHandling.svc/SupplierGroups"
+        },
+		
+		
+	"UnitsOfMeasureHandling": {
+            "PrimaryKey": [
+                "UnitCode"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/UnitsOfMeasureHandling.svc/IsoUnits",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/UnitsOfMeasureHandling.svc/IsoUnits",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/UnitsOfMeasureHandling.svc/IsoUnits"
+        },
+		
+
+	"SubstituteScheduleHandling": {
+            "PrimaryKey": [
+                "CompanyId"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/SubstituteScheduleHandling.svc/DaySchedSubs",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/SubstituteScheduleHandling.svc/DaySchedSubs",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/SubstituteScheduleHandling.svc/DaySchedSubs"
+        },
+		
+		
+
+	"AbsenceConfigurationGroupHandling": {
+            "PrimaryKey": [
+                "CompanyId"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/AbsenceConfigurationGroupHandling.svc/AbsenceGroups",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/AbsenceConfigurationGroupHandling.svc/AbsenceGroups",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/AbsenceConfigurationGroupHandling.svc/AbsenceGroups"
+        },
+        "DeliveryTypesHandling": {
+            "PrimaryKey": [
+                "Company",
+				"DelivTypeId"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/DeliveryTypesHandling.svc/DeliveryTypeSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/DeliveryTypesHandling.svc/DeliveryTypeSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/DeliveryTypesHandling.svc/DeliveryTypeSet"
+        },
+        "InvoiceSeriesHandling": {
+            "PrimaryKey": [
+                "Company",
+				"SeriesId"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/InvoiceSeriesHandling.svc/InvoiceSeriesSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/InvoiceSeriesHandling.svc/InvoiceSeriesSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/InvoiceSeriesHandling.svc/InvoiceSeriesSet"
+        },
+        "PaymentFormatMessageCodesHandling": {
+            "PrimaryKey": [
+                "FormatId",
+				"Issuer"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PaymentFormatMessageCodesHandling.svc/PayFormMessageHeadSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PaymentFormatMessageCodesHandling.svc/PayFormMessageHeadSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PaymentFormatMessageCodesHandling.svc/PayFormMessageHeadSet"
+        },
+        "CostRevenueBreakdownStructureHandling": {
+            "PrimaryKey": [
+                "Company",
+				"CostStructureId"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CostRevenueBreakdownStructureHandling.svc/CostStructureSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CostRevenueBreakdownStructureHandling.svc/CostStructureSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CostRevenueBreakdownStructureHandling.svc/CostStructureSet"
+        },
+        "CostRevBrkdownStrcItmHandling": {
+            "PrimaryKey": [
+                "Company",
+				"CostStructureId",
+				"NameValue",
+				"CostStructItemType"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CostRevBrkdownStrcItmHandling.svc/CostStructureItemSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CostRevBrkdownStrcItmHandling.svc/CostStructureItemSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CostRevBrkdownStrcItmHandling.svc/CostStructureItemSet"
+        },
+        "CostRevenueBreakdownStructureLevelsHandling": {
+            "PrimaryKey": [
+                "Company",
+				"CostStructureId",
+				"LevelNo"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/CostRevenueBreakdownStructureLevelsHandling.svc/CostStructureLevelSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/CostRevenueBreakdownStructureLevelsHandling.svc/CostStructureLevelSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/CostRevenueBreakdownStructureLevelsHandling.svc/CostStructureLevelSet"
+        },
+        "ResourceGroupsHandling": {
+            "PrimaryKey": [
+                "ResourceSeq"
+				
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ResourceGroupsHandling.svc/ResourceSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ResourceGroupsHandling.svc/ResourceSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ResourceGroupsHandling.svc/ResourceSet"
+        },
+        "SalesContractReasonCodeHandling": {
+            "PrimaryKey": [
+                "ReasonId",
+				"ReasonType"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/SalesContractReasonCodeHandling.svc/ContractReasonSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/SalesContractReasonCodeHandling.svc/ContractReasonSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/SalesContractReasonCodeHandling.svc/ContractReasonSet"
+        },
+        "SalesContractTypesHandling": {
+            "PrimaryKey": [
+                "TypeId"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/SalesContractTypesHandling.svc/ContractTypeSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/SalesContractTypesHandling.svc/ContractTypeSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/SalesContractTypesHandling.svc/ContractTypeSet"
+        },
+        "ResourceCategoriesHandling": {
+            "PrimaryKey": [
+                "ResourceCategory"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/ResourceCategoriesHandling.svc/ResourceCategoriesSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/ResourceCategoriesHandling.svc/ResourceCategoriesSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/ResourceCategoriesHandling.svc/ResourceCategoriesSet"
+        },
+        "PurchaseAuthorizers": {
+            "PrimaryKey": [
+                "Company",
+				"AuthorizeId"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PurchaseAuthorizationBasicDataHandling.svc/PurchaseAuthorizerSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PurchaseAuthorizationBasicDataHandling.svc/PurchaseAuthorizerSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PurchaseAuthorizationBasicDataHandling.svc/PurchaseAuthorizerSet"
+        },
+        "PurchaseAuthorizerRejectReason": {
+            "PrimaryKey": [
+                "Company",
+				"RejectReasonId"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PurchaseAuthorizationBasicDataHandling.svc/PurchaseAuthorizationBasicDataSet(Company='{Company}')/PurchaseAuthorizeRejectReasons",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PurchaseAuthorizationBasicDataHandling.svc/PurchaseAuthorizationBasicDataSet(Company='{Company}')/PurchaseAuthorizeRejectReasons",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PurchaseAuthorizationBasicDataHandling.svc/PurchaseAuthorizationBasicDataSet(Company='{Company}')/PurchaseAuthorizeRejectReasons"
+        },
+        "PurchaseAuthorizerGroups": {
+            "PrimaryKey": [
+                "Company",
+				"AuthorizeGroupId"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PurchaseAuthorizationBasicDataHandling.svc/PurchaseAuthorizationBasicDataSet(Company='{Company}')/PurchaseAuthorizeGroups",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PurchaseAuthorizationBasicDataHandling.svc/PurchaseAuthorizationBasicDataSet(Company='{Company}')/PurchaseAuthorizeGroups",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PurchaseAuthorizationBasicDataHandling.svc/PurchaseAuthorizationBasicDataSet(Company='{Company}')/PurchaseAuthorizeGroups"
+        },
+        "PurchaseApprovalTempate": {
+            "PrimaryKey": [
+                "Company",
+				"TemplateId"
+                
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PurchaseAuthorizationBasicDataHandling.svc/PurchaseAuthorizationBasicDataSet(Company='{Company}')/PurchaseApprovalTemplates",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PurchaseAuthorizationBasicDataHandling.svc/PurchaseAuthorizationBasicDataSet(Company='{Company}')/PurchaseApprovalTemplates",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PurchaseAuthorizationBasicDataHandling.svc/PurchaseAuthorizationBasicDataSet(Company='{Company}')/PurchaseApprovalTemplates"
+        },
+        "VoucherNoSerialSet": {
+            "PrimaryKey": [
+                "Company",
+				"VoucherType",
+				"AccountingYear",
+				"Period"
+
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/UserRelatedVoucherData.svc/VoucherNoSerialSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/UserRelatedVoucherData.svc/VoucherNoSerialSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/UserRelatedVoucherData.svc/VoucherNoSerialSet"
+        },
+        "PurchaseApprovalTemplateLine": {
+            "PrimaryKey": [
+                "Company",
+				"TemplateId",
+				"LineNo"
+
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/PurchaseAuthorizationBasicDataHandling.svc/Reference_PurchaseApprovalTemplateLine",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/PurchaseAuthorizationBasicDataHandling.svc/Reference_PurchaseApprovalTemplateLine",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/PurchaseAuthorizationBasicDataHandling.svc/Reference_PurchaseApprovalTemplateLine"
+        },
+        "DocumentClassesHandling": {
+            "PrimaryKey": [
+                "DocClass"
+
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/DocumentClassesHandling.svc/DocClassSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/DocumentClassesHandling.svc/DocClassSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/DocumentClassesHandling.svc/DocClassSet"
+        },
+        "DocumentTextOutputTypeHandling": {
+            "PrimaryKey": [
+                "OutputType"
+
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/DocumentTextOutputTypeHandling.svc/OutputTypes",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/DocumentTextOutputTypeHandling.svc/OutputTypes",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/DocumentTextOutputTypeHandling.svc/OutputTypes"
+        },
+        "DocumentFileTypesHandling": {
+            "PrimaryKey": [
+                "FileType"
+
+            ],
+            "ProjectionUrlCfg":"https://boccard-cfg.ifs.cloud/main/ifsapplications/projection/v1/DocumentFileTypesHandling.svc/EdmApplicationSet",
+            "ProjectionUrlAcc":"https://boccard-acc.ifs.cloud/main/ifsapplications/projection/v1/DocumentFileTypesHandling.svc/EdmApplicationSet",
+            "ProjectionUrlUat":"https://boccard-uat.ifs.cloud/main/ifsapplications/projection/v1/DocumentFileTypesHandling.svc/EdmApplicationSet"
+        }
+
+		
+		
+		
+    }
+}

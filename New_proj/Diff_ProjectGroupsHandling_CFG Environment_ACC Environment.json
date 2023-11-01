@@ -1,0 +1,938 @@
+[
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B001"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "FIN"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "InProgress",
+    "Objgrants": null,
+    "Company": "B001",
+    "ProjectGroup": "FIN",
+    "ProjectSeriesId": null,
+    "Description": "Financial project",
+    "CapitalizationPostMethod": "Transaction",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO01"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "QA"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO01",
+    "ProjectGroup": "QA",
+    "ProjectSeriesId": null,
+    "Description": "  Quotation Cost Projects",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO01"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "EXC"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO01",
+    "ProjectGroup": "EXC",
+    "ProjectSeriesId": null,
+    "Description": "EX Projects - investments",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022P"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "INVG"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "B022P",
+    "ProjectGroup": "INVG",
+    "ProjectSeriesId": null,
+    "Description": "At Invocing or Shipment",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO01"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "TS"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO01",
+    "ProjectGroup": "TS",
+    "ProjectSeriesId": null,
+    "Description": "T&S Small projects",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B001"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "MFG CAP EX"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "B001",
+    "ProjectGroup": "MFG CAP EX",
+    "ProjectSeriesId": null,
+    "Description": "Manufacturing - Capitalization Expense",
+    "CapitalizationPostMethod": "Transaction",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "MFG CAP EX"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "InProgress",
+    "Objgrants": null,
+    "Company": "B022",
+    "ProjectGroup": "MFG CAP EX",
+    "ProjectSeriesId": null,
+    "Description": "Manufacturing - Capitalization Expense",
+    "CapitalizationPostMethod": "Transaction",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B007"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "MFG CAP EX"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "InProgress",
+    "Objgrants": null,
+    "Company": "B007",
+    "ProjectGroup": "MFG CAP EX",
+    "ProjectSeriesId": null,
+    "Description": "Manufacturing - Capitalization Expense",
+    "CapitalizationPostMethod": "Transaction",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO22"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "MFG CAP EX"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "InProgress",
+    "Objgrants": null,
+    "Company": "BO22",
+    "ProjectGroup": "MFG CAP EX",
+    "ProjectSeriesId": null,
+    "Description": "Manufacturing - Capitalization Expense",
+    "CapitalizationPostMethod": "Transaction",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO-07"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "MFG CAP EX"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO-07",
+    "ProjectGroup": "MFG CAP EX",
+    "ProjectSeriesId": null,
+    "Description": "Manufacturing - Capitalization Expense",
+    "CapitalizationPostMethod": "Transaction",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO-22"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "MFG CAP EX"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO-22",
+    "ProjectGroup": "MFG CAP EX",
+    "ProjectSeriesId": null,
+    "Description": "Manufacturing - Capitalization Expense",
+    "CapitalizationPostMethod": "Transaction",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO01"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "FIN"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO01",
+    "ProjectGroup": "FIN",
+    "ProjectSeriesId": null,
+    "Description": "Financial projects",
+    "CapitalizationPostMethod": "Transaction",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO03"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "FIN"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO03",
+    "ProjectGroup": "FIN",
+    "ProjectSeriesId": null,
+    "Description": "Financial projects",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022P"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "NORR"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "B022P",
+    "ProjectGroup": "NORR",
+    "ProjectSeriesId": null,
+    "Description": "No Revenue Recognition",
+    "CapitalizationPostMethod": "Transaction",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022P"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "EACP"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "B022P",
+    "ProjectGroup": "EACP",
+    "ProjectSeriesId": null,
+    "Description": "Cost Progress - Estimated at Completion",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022P"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "BSIT"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "B022P",
+    "ProjectGroup": "BSIT",
+    "ProjectSeriesId": null,
+    "Description": "Balance Sheet Items",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022P"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "INVE"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "B022P",
+    "ProjectGroup": "INVE",
+    "ProjectSeriesId": null,
+    "Description": "Investments",
+    "CapitalizationPostMethod": "Transaction",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO07"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "MFG CAP EX"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "InProgress",
+    "Objgrants": null,
+    "Company": "BO07",
+    "ProjectGroup": "MFG CAP EX",
+    "ProjectSeriesId": null,
+    "Description": "Manufacturing - Capitalization Expense",
+    "CapitalizationPostMethod": "Transaction",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO01"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "POC"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO01",
+    "ProjectGroup": "POC",
+    "ProjectSeriesId": null,
+    "Description": "Revenue Recognition",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO01"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "FAC"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO01",
+    "ProjectGroup": "FAC",
+    "ProjectSeriesId": null,
+    "Description": "Fixed Assets in Construction",
+    "CapitalizationPostMethod": "Transaction",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO01"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "CAP"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO01",
+    "ProjectGroup": "CAP",
+    "ProjectSeriesId": null,
+    "Description": "Cost capitalization",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO03"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "POC"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO03",
+    "ProjectGroup": "POC",
+    "ProjectSeriesId": null,
+    "Description": "Revenue Recognition",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO03"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "CAP"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO03",
+    "ProjectGroup": "CAP",
+    "ProjectSeriesId": null,
+    "Description": "Cost capitalization",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO03"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "FAC"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO03",
+    "ProjectGroup": "FAC",
+    "ProjectSeriesId": null,
+    "Description": "Fixed assets in construction",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO04"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "CAP"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "InProgress",
+    "Objgrants": null,
+    "Company": "BO04",
+    "ProjectGroup": "CAP",
+    "ProjectSeriesId": null,
+    "Description": "Cost capitalization",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO04"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "FAC"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "InProgress",
+    "Objgrants": null,
+    "Company": "BO04",
+    "ProjectGroup": "FAC",
+    "ProjectSeriesId": null,
+    "Description": "Fixed assets in construction",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO04"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "FIN"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "InProgress",
+    "Objgrants": null,
+    "Company": "BO04",
+    "ProjectGroup": "FIN",
+    "ProjectSeriesId": null,
+    "Description": "Financial projects",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO04"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "POC"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "InProgress",
+    "Objgrants": null,
+    "Company": "BO04",
+    "ProjectGroup": "POC",
+    "ProjectSeriesId": null,
+    "Description": "Revenue Recognition",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO01"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "TS1"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "InProgress",
+    "Objgrants": null,
+    "Company": "BO01",
+    "ProjectGroup": "TS1",
+    "ProjectSeriesId": null,
+    "Description": "T&S Small projects",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO01"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "MAINT"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO01",
+    "ProjectGroup": "MAINT",
+    "ProjectSeriesId": null,
+    "Description": "Maintenance Project Group",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO01"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "GM"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO01",
+    "ProjectGroup": "GM",
+    "ProjectSeriesId": null,
+    "Description": "maintenance and services",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO01"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "FF"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO01",
+    "ProjectGroup": "FF",
+    "ProjectSeriesId": null,
+    "Description": "  Fixed cost projects",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO01"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "VC"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO01",
+    "ProjectGroup": "VC",
+    "ProjectSeriesId": null,
+    "Description": "Variable Cost Project",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO01"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "NRO"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO01",
+    "ProjectGroup": "NRO",
+    "ProjectSeriesId": null,
+    "Description": " NRO Projects",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO01"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "TEST"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "InProgress",
+    "Objgrants": null,
+    "Company": "BO01",
+    "ProjectGroup": "TEST",
+    "ProjectSeriesId": null,
+    "Description": "test",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "BO03"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "EXC"
+      }
+    ],
+    "Source": "CFG Environment",
+    "MissingFrom": "ACC Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "BO03",
+    "ProjectGroup": "EXC",
+    "ProjectSeriesId": null,
+    "Description": "Fixed Assets under Constraction",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "BSIT"
+      }
+    ],
+    "Source": "ACC Environment",
+    "MissingFrom": "CFG Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "B022",
+    "ProjectGroup": "BSIT",
+    "ProjectSeriesId": null,
+    "Description": "Balance Sheet Items",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "INVG"
+      }
+    ],
+    "Source": "ACC Environment",
+    "MissingFrom": "CFG Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "B022",
+    "ProjectGroup": "INVG",
+    "ProjectSeriesId": null,
+    "Description": "At Invocing or Shipment",
+    "CapitalizationPostMethod": "Periodical",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  },
+  {
+    "primaryKeyValue": [
+      {
+        "key": "Company",
+        "value": "B022"
+      },
+      {
+        "key": "ProjectGroup",
+        "value": "NORR"
+      }
+    ],
+    "Source": "ACC Environment",
+    "MissingFrom": "CFG Environment",
+    "Objstate": "Active",
+    "Objgrants": null,
+    "Company": "B022",
+    "ProjectGroup": "NORR",
+    "ProjectSeriesId": null,
+    "Description": "No Revenue Recognition",
+    "CapitalizationPostMethod": "Transaction",
+    "SpecificCapPrinciples": false,
+    "CloseAtFinalInvo": false,
+    "DefaultProjectGroup": false
+  }
+]
